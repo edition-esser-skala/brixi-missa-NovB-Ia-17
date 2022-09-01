@@ -1,0 +1,31 @@
+composer:
+  last: Brixi
+  first: František Xaver
+title: Missa in E minor
+id: NovB Ia:17
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (D), timp (D–A), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 36
+    rism: 600037852
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/684.html
+    license: public domain
+    principal: true
+  B2:
+    siglum: D-KA
+    shelfmark: Don Mus.Ms. 1339|1
+    rism: 450012732
+    url: https://digital.blb-karlsruhe.de/id/4783921
+    license: CC BY-SA 4.0
+  D1:
+    siglum: CZ-Pu
+    shelfmark: 59 R 3525
+    rism: 550500564
+    url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_R_3525___0O7CCJ7-cs
+    license: CC BY-NC-SA 4.0
+imslp:
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
