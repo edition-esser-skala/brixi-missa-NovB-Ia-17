@@ -7,7 +7,16 @@
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 3\cm }
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      systems-per-page = #2
+      indent = 3\cm
+    }
     \score {
       <<
         \new StaffGroup <<
@@ -58,7 +67,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
