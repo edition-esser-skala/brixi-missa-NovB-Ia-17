@@ -277,3 +277,36 @@ GloriaViolinoII = {
     q2 r4\fermata \bar "||" %122 finis
   }
 }
+
+GratiasViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoGratias
+      \set Score.currentBarNumber = #123
+    r16 h'-!\fE h-! h-! h-! h-! d( h) r h-! h-! h-! h-! h-! d( h)
+    r e-! e( c) c( a) a8 a g r4
+    r16 h-!\p h-! h-! h-! h-! d( h) r h-! h-! h-! h-! h-! d(-\critnote h) %125
+    r e-! e( c) c( a) a8 a g r4
+    r8 d' d d r d d d
+    r cis cis cis r d d d
+    r d d d cis( e) r cis
+    d( fis) r d e16( fis) fis( g) g( e) e( fis) %130
+    fis8 \appoggiatura a32 g16 fis32 e d8 cis d16 \parOn fis-\parenthesize-!\fE fis-! fis-! fis8 r16 cis
+    d fis-! fis-! \parOff fis-\parenthesize-! fis8 r16 cis d8 \appoggiatura cis32 h16-\critnote a32 g g16( fis) fis( e)
+    fis8 d d4 r16 fis-!\pE fis-! fis-! fis-! fis-! a( fis)
+    r fis-! fis-! fis-! fis-! fis-! a( fis) r h-! h( g) g( e)-\critnote e8
+    e d d4 r8 d' d d %135
+    r dis dis dis e r e16 fis gis a
+    h4 h16( a) a( gis) \tuplet 3/2 8 { \sbOn e d c } c c \sbOff c8 r
+    r e e c r a a ais?
+    \slurDashed fis( dis') r fis, g( e') r g,
+    dis'( fis) \slurSolid r dis h4. h8 %140
+    e4 e e16 d c8 a'4
+    a8 g r d e e r h
+    \slurDashed a( fis') r a, h( g') r h,
+    fis'( a) \slurSolid r fis g h32( a g a) g8 fis
+    e g32( fis e fis) e8 d c16 e d( c) c( h) h( a) %145
+    r h-!\f h-! h-! h8 r16 fis g h-! h-! h-! h8 r16 fis
+    g8 \appoggiatura fis32 e16 d32 c \slurDashed c16(-\critnote h) h( a) g4 r\fermata \bar "||"
+  }
+}

@@ -468,3 +468,60 @@ GloriaAltoLyrics = \lyricmode {
   ca -- mus %120
   te. %121 finis
 }
+
+GratiasAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #123
+    R1*2
+    \mvTr g'4.\pE^\solo h16 g g4. h16 g %125
+    r8 c16([ a)] a([ fis)] fis([ c)] c8 h r4
+    h'4. \tuplet 3/2 8 { d16([ cis h)] } a([ fis)] \appoggiatura e8 d4 r8
+    \once \tieDashed g4~ g16.[ a64 h] a16 g g8 fis r4
+    \appoggiatura fis8 e4 e e16[ g] r g \appoggiatura a32 g16[ fis32 g] e16[ g]
+    fis[ a] r a \appoggiatura h32 a16[ g32 a] fis16[ a] g[ a a h] h[( cis cis d)] %130
+    d8 \appoggiatura cis32 h16 \appoggiatura a32 g16 fis8([ e)] d4 r
+    R1
+    r2 d4. fis16 d
+    d4. fis16 d r8 g16([ e)] e([ cis)] cis([ g')]
+    g8 fis r4 a a %135
+    \once \tieDashed a~ a16[ h32 c!] h16([ a)] gis[ h e, fis] gis[ a h c]
+    d!4 d16([ c)] c([ h)] \tuplet 3/2 8 { c([ h a)] } a8 r4
+    c4. a8 \appoggiatura g fis4. e8
+    dis16[ fis] r fis \appoggiatura g32 fis16[ e32 fis] dis16[ fis] e[ g] r g \appoggiatura a32 g16[ fis32 g] e16[ g]
+    fis[ a] r a \appoggiatura h32 a16[ g32 a] fis16[ a] g[^\critnote h] r fis g[ h] r gis %140
+    a[ c] r a h[ d] r h c h a8 c4
+    c8([^\critnote h)] h4~ h16[ a c h] a[ g fis e]
+    fis[ a] r a \appoggiatura h32 a16[ g32 a] fis16[ a] g[ h] r h \appoggiatura c32 h16[ a32 h] g16[ h]
+    a[ c] r c \appoggiatura d32 c16[ h32 c] a16[ c] h8[ d32 c h c] h8[ a]
+    g[ h32 a g a] g8[ fis] e16[ c'] h a a([ g g fis)] %145
+    g4 r r2
+    R1\fermata \bar "||" %147 finis
+  }
+}
+
+GratiasAltoLyrics = \lyricmode {
+  Gra -- ti -- as a -- gi -- mus, %125
+  a -- gi -- mus ti -- bi
+  pro -- pter ma -- gnam
+  glo -- ri -- am tu -- am,
+  pro -- pter ma -- _ _ _
+  _ _ _ _ _ gnam __ %130
+  glo -- ri -- am tu -- am.
+
+  Gra -- ti -- as
+  a -- gi -- mus, a -- gi -- mus
+  ti -- bi pro -- pter %135
+  ma -- gnam glo -- _
+  _ ri -- am tu -- am,
+  pro -- pter ma -- gnam
+  glo -- _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ %140
+  _ _ _ _ _ ri -- am, ma --
+  gnam glo -- _
+  _ _ _ _ _ _ _ _
+  _ _ _ _ _ _
+  _ _ _ ri -- am tu -- %145
+  am. %146 finis
+}

@@ -575,3 +575,64 @@ GloriaBassFigures = \figuremode {
   r2.
   r %122 finis
 }
+
+GratiasOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoGratias
+      \set Score.currentBarNumber = #123
+    \mvTr g'4\fE-\solo r8 g e4 r8 e
+    c4 r8 d g g, g r
+    g'4\p r8 g e4 r8 e %125
+    c4 r8 d g g, g r
+    r g' g g r fis fis fis
+    r e e e r d d d
+    r g g gis a a, r a'
+    a a, r a' a4 r8 a %130
+    d, g a a, d4 r8 a'\f
+    d d, r a' d g, a a,
+    d4 r d\pE r8 d
+    h4 r8 h g4 r8 a
+    d d, d4 r8 f' f f %135
+    r f f f e4 r
+    r16 e gis h e,8 e a a, a r
+    r a' a a r a a ais
+    h h, r h' h h, r h'
+    h h, r h' e, dis e d %140
+    c a' gis gis a a, r fis'
+    g g, r g' c c, r cis
+    d d r d d d r d
+    d d r d g r r16 g d' d,
+    e8 r r16 e h' h, c8 r d d, %145
+    g4 r8 d'\f g g, r d'
+    g c, d d, g4 r\fermata \bar "||" %147 finis
+  }
+}
+
+GratiasBassFigures = \figuremode {
+  r1 %123
+  <[6]>4. <7>8 <9 4> <8 3>4.
+  r1 %125
+  <[6]>4. <7>8 <9 4> <8 3>4.
+  r2 r8 <6>4.
+  r8 <6\\>2..
+  r8 <6 5>4 <\t \t>8 <_+>2
+  <6 4> <7 5 _+> %130
+  r8 \bo <[6]> <6 4>8 <5 _+>2 <_+>8
+  r4. <_+>4 <6>8 <6 4> \bc <[5] _+>
+  r1
+  r2 <[6]>4. <7 _+>8
+  \bo <[9 4]> \bc <[8 3]>2 <6>4. %135
+  r8 <6\\>4. <_+>2
+  r16 <7! [_+]>2...
+  r2 r8 <6>4 <5 [_+]>8
+  <_+>2 <6 4>
+  <7 _+>2 r8 <[6]>4 <4+ 2>8 %140
+  \bo <[6 \l]>4 \bc <[6 5]>2 r8 <5>
+  \bo <[9] 4>8 \bc <[8] 3>4. <7>8 <6>4 <[7]>8
+  r2 <6 4>4. <\t \t>8
+  <7>2.. <5>8
+  r4. <5> \bo <[6 4]>8 \bc <[5 3]> %145
+  r1
+  r8 \bo <[6]> <6 4>8 \bc <[5] 3> r2 %147 finis
+}
