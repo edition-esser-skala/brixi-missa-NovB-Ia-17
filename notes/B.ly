@@ -172,3 +172,238 @@ KyrieBassoLyrics = \lyricmode {
   e -- lei --
   son. %147 finis
 }
+
+GloriaBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \autoBeamOff \tempoGloria
+    R2.*4
+    \mvTr d2.\fE^\tutti %5
+    d'
+    d,
+    g4 a a,
+    d r r
+    r fis d %10
+    a' a, r
+    r cis' a
+    d d, r
+    r fis d
+    a' cis d %15
+    a cis d
+    a cis d
+    a a, r
+    a'( cis) a
+    gis( e) gis %20
+    a( cis) a
+    gis( e) gis
+    a2 gis4
+    fis( e d)
+    cis r r %25
+    cis8.([ d16] e2)
+    a r4
+    cis,8.([ d16] e2)
+    a,2 r4
+    R2.*3 %32
+    \tieDashed a'2.~
+    a~ \tieSolid
+    a %35
+    d,4 e e
+    a, r r
+    r cis a
+    e' e r
+    r gis e %40
+    a a r
+    r cis, a
+    e' gis a
+    e gis a
+    e gis a %45
+    e' e, r
+    e'2.\p
+    e,
+    d
+    cis %50
+    h
+    a
+    cis2 cis4
+    cis2^\critnote r4
+    cis( dis) eis %55
+    fis( gis) a
+    h, cis d?
+    e! fis gis
+    a, h cis
+    d e fis %60
+    gis, a h
+    cis dis eis
+    fis a fis
+    d fis d
+    his dis his %65
+    cis h a
+    h cis2
+    fis r4
+    R2.*4 %72
+    d2.\f
+    d'
+    d, %75
+    g4 a a,
+    d r r
+    r fis d
+    g( h) g
+    fis d fis %80
+    g( h) g
+    fis d fis
+    g2.~
+    g2 fis4
+    cis2 d4 %85
+    a'2 r4
+    a2.\p
+    a
+    a
+    a %90
+    a,
+    a
+    gis
+    a2 r4
+    R2. %95
+    r4 fis'\f d
+    a'8. a16 a4 r
+    r cis a
+    d d, r
+    r fis( d) %100
+    a'( cis) d
+    a cis d
+    g, a a,
+    d2 r4
+    r fis\p d %105
+    a'8. a16 a4 r
+    r cis a
+    d d, r
+    r fis( d)
+    a'( cis) d %110
+    a cis d
+    g, a a,
+    d d'2\f
+    d2.
+    d %115
+    g,4( a) a,
+    d d'2
+    d2.
+    d
+    g,4( a) a, %120
+    d2 r4
+    R2.\fermata \bar "||" %122 finis
+  }
+}
+
+GloriaBassoLyrics = \lyricmode {
+  Glo -- %5
+  _
+  _
+  _ _ ri --
+  a
+  in ex -- %10
+  cel -- sis,
+  in ex --
+  cel -- sis,
+  in ex --
+  cel -- _ _ %15
+  _ _ _
+  _ _ sis
+  De -- o,
+  in __ ex --
+  cel -- sis, %20
+  in __ ex --
+  cel -- sis,
+  in ex --
+  cel --
+  sis %25
+  De --
+  o,
+  De --
+  o.
+
+  Glo -- %33
+
+  _ _ ri -- %36
+  a
+  in ex --
+  cel -- sis,
+  in ex -- %40
+  cel -- sis,
+  in ex --
+  cel -- _ _
+  _ _ _
+  _ _ sis %45
+  De -- o.
+  Et
+  in
+  ter --
+  ra %50
+  pax
+  ho --
+  mi -- ni --
+  bus
+  bo -- nae %55
+  vo -- lun --
+  ta -- _ _
+  _ _ _
+  _ _ _
+  _ _ _ %60
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _ %65
+  _ _ _
+  _ _
+  tis.
+
+  Lau -- %73
+  da --
+  _ %75
+  _ _ mus
+  te,
+  be -- ne --
+  di -- ci --
+  mus, ad -- o -- %80
+  ra -- mus
+  te, ad -- o --
+  ra --
+  _
+  _ mus %85
+  te,
+  ad --
+  o --
+  ra --
+  mus, %90
+  ad --
+  o --
+  ra --
+  mus,
+  %95
+  be -- ne --
+  di -- ci -- mus,
+  ad -- o --
+  ra -- mus,
+  glo -- %100
+  ri -- fi --
+  ca -- _ _
+  _ _ mus
+  te,
+  be -- ne -- %105
+  di -- ci -- mus,
+  ad -- o --
+  ra -- mus,
+  glo --
+  ri -- fi -- %110
+  ca -- _ _
+  _ _ mus
+  te, glo --
+  ri --
+  fi -- %115
+  ca -- mus
+  te, glo --
+  ri --
+  fi --
+  ca -- mus %120
+  te. %121 finis
+}

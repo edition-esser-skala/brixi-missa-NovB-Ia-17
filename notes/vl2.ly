@@ -148,3 +148,132 @@ KyrieViolinoII = {
     gis r\fermata \bar "|." %147 finis
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoGloria
+    fis4\fE <d a' fis'> fis'8.(\trill e32 fis)
+    g4 <g h, d,> g8.(\trill fis32 g)
+    fis4 <fis a, d,> d
+    e d cis
+    d <d, a' fis'> fis'8.(\trill e32 fis) %5
+    g4 <g h, d,> g8.(\trill fis32 g)
+    fis4 <fis a, d,> d
+    e d cis
+    d-! d,16 d d d fis fis fis fis
+    a a a a d d d d d d d d %10
+    cis4-! e,16 e e e a a a a
+    cis cis cis cis e e e e e e e e
+    d4-! a16 a a a d d d d
+    fis fis fis fis a a a a fis fis fis fis
+    e8 e4 fis16 g fis8 fis %15
+    e4 a, a8 fis'
+    e4 a, a8 fis'
+    d4 cis r
+    r8 a' e a cis, e
+    h e \slurDashed h'16( a gis fis) e( d cis h) %20
+    cis8 a' e a cis, e
+    h e h'16( a gis fis) e( d cis h) \slurSolid
+    cis8 a' a16 a a a a a a a
+    cis,8.[ cis16 cis8. cis16 cis8. cis16]
+    cis8.[ e16 a8. e16 cis8. a16] %25
+    e8.-\critnote h'16 a4 gis
+    cis8. e16 a gis fis e d cis h a
+    e8. h'16-\critnote a4 gis
+    a <cis e,> cis8.(\trillE h32 cis)
+    <d fis,>4 q q %30
+    <cis e,>-\critnote cis a
+    h a gis
+    a <cis e,> cis8.(\trillE h32 cis)
+    <d fis,>4 q q
+    <cis e,>-\critnote cis a %35
+    h a gis
+    a-\parenthesize-! a,16 a a a cis cis cis cis
+    e e e e a a a a a a a a
+    gis4-\parenthesize-! h,16 h h h e e e e
+    gis gis gis gis h h h h d d d d %40
+    cis4-\parenthesize-! e,16 e e e a a a a
+    cis cis cis cis e e e e a a a a
+    h,4 e, e8 cis'
+    h4 e, e8 cis'
+    h4 e, e8 cis' %45
+    a4 gis r
+    r gis\p gis
+    r gis gis
+    r gis gis
+    r gis gis %50
+    r gis gis
+    r a a
+    gis eis8.[ fis16 eis8. fis16]
+    eis2 r4
+    eis' fis gis? %55
+    fis2 e4
+    d! e fis
+    e2 d4
+    cis d e
+    d2 cis4 %60
+    h cis d
+    cis2 h4
+    a8.[ a16 a8. a16 a8. a16]
+    a8.[ a16 a8. a16 a8. a16]
+    a8.[ a16 a8. a16 a8. a16] %65
+    gis8.[-\critnote gis16 gis8. gis16 a8. a16]
+    gis8.[ gis16 gis8. gis16 gis8. gis16]
+    a2 r4
+    fis\f <d a' fis'> fis'8.(\trill e32 fis)
+    g4 <g h, d,> g8.(\trill fis32 g) %70
+    fis4 <fis a, d,> d
+    e d cis
+    d\f <d, a' fis'> fis'8.(\trill e32 fis)
+    g4 <g h, d,> g8.(\trill fis32 g)
+    fis4 <fis a, d,> d %75
+    e d cis
+    d a,16 a a a d d d d
+    fis fis fis fis a a a a fis fis fis fis
+    g8 g' d g h, d
+    a d a'16 g fis e d c h a %80
+    h8 g' d^\critnote g h, g'
+    a, d a'16 g fis e d c h a
+    h8 h g' g h, h
+    cis!4. d16 e d4
+    a8 a a a d d %85
+    d4 cis r
+    r cis\p cis
+    r cis cis
+    r d d
+    r cis cis %90
+    r a a
+    r g g
+    r f f
+    e2 r4
+    <d a' fis'>4\f d16 d d d fis fis fis fis %95
+    a a a a d d d d d d d d
+    cis4-\parenthesize-! e,16 e e e a a a a
+    cis cis cis cis e e e e e e e e
+    d4-! a16 a a a d d d d
+    fis fis fis fis a a a a fis fis fis fis %100
+    e4 a, a8 fis'
+    e4 a, a8 fis'
+    \appoggiatura a16 g8 fis16 e d4 cis
+    d-\parenthesize-! d,16\p d d d fis fis fis fis
+    a a a a d d d d d d d d %105
+    cis4-\parenthesize-! e,16 e e e a a a a
+    cis cis cis cis e^\critnote e e e e e e e
+    d4-\parenthesize-! a16 a a a d d d d
+    fis fis fis fis a a a a fis fis fis fis
+    e4 a, a8 fis' %110
+    e4 a, a8 fis'
+    \appoggiatura a16 g8 fis16 e d4 cis
+    d <fis a, d,>\f fis8.(\trill e32 fis)
+    g4 <g h, d,> g8.(\trillE fis32 g)
+    fis4 <fis a, d,> d %115
+    e d cis
+    d <fis a, d,> fis8.(\trillE e32 fis)
+    g4 <g h, d,> g8.(\trillE fis32 g)
+    fis4 <fis a, d,> d
+    e d cis %120
+    d <d d,> q
+    q2 r4\fermata \bar "||" %122 finis
+  }
+}

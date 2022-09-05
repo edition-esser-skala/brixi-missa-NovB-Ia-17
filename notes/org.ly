@@ -321,3 +321,257 @@ KyrieBassFigures = \figuremode {
   r
   <_+> %147 finis
 }
+
+GloriaOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoGloria
+    \mvTr d8\fE-\solo d d d d d
+    d d d d d d
+    d d d d d d
+    g4 a a,
+    d8-\tutti d d d d d %5
+    d d d d d d
+    d d d d d d
+    g4 a a,
+    d r r
+    r fis d %10
+    a' a, r
+    r cis' a
+    d d, r
+    r fis d
+    a' cis d %15
+    a cis d
+    a cis d
+    a a, r
+    a' cis a
+    gis e gis %20
+    a cis a
+    gis e gis
+    a a gis
+    fis e d
+    cis r r %25
+    cis8. d16 e4 e,
+    a2 r4
+    cis8. d16 e4 e,
+    a8 a'-\solo a a a a
+    a a a a a a %30
+    a a a a a a
+    d,4 e e,
+    a8-\tutti a' a a a a
+    a a a a a a
+    a a a a a a %35
+    d,4 e e,
+    a r r
+    r cis a
+    e' e r
+    r gis e %40
+    a a, r
+    r cis a
+    e' gis a
+    e gis a
+    e gis a %45
+    e' e, r
+    e'2.\p
+    e,
+    d
+    cis %50
+    h
+    a
+    cis4 cis cis
+    cis2 r4
+    cis dis eis %55
+    fis gis a
+    h, cis d!
+    e! fis gis
+    a, h cis
+    d e fis %60
+    gis, a h
+    cis dis eis
+    fis a fis
+    d fis d
+    his dis his %65
+    cis h a
+    h cis cis
+    fis,2 r4
+    d'8\f d d d d d
+    d d d d d d %70
+    d d d d d d
+    g4 a a,
+    d8-\tutti d d d d d
+    d d d d d d
+    d d d d d d %75
+    g4 a a,
+    d r r
+    r fis d
+    g h g
+    fis d fis %80
+    g h g
+    fis d fis
+    g8 g g g g g
+    g g g g fis fis
+    cis cis cis cis d d %85
+    a'4 a, r
+    \mvTr a2\p-\markup \remark "Ped." r4
+    a2 r4
+    a'2 r4
+    a2 r4 %90
+    a,2 r4
+    a2 r4
+    gis2 r4
+    a2 r4
+    d2\f r4 %95
+    r fis d
+    a' a, r
+    r cis' a
+    d d, r
+    r fis d %100
+    a' cis d
+    a cis d
+    g, a a,
+    d2 r4^\critnote
+    r4 fis\p d %105
+    a' a, r
+    r cis' a
+    d d, r
+    r fis d
+    a' cis d %110
+    a cis d
+    g, a a,
+    d2 d8\f d
+    d d d d d d
+    d d d d d d %115
+    g4 a a,
+    d8 d d d d d
+    d d d d d d
+    d d d d d d
+    g4 a a, %120
+    d8 d' d, d d d
+    d2 r4\fermata \bar "||" %122 finis
+  }
+}
+
+GloriaBassFigures = \figuremode {
+  r2.
+  <6 4>
+  <5 3>
+  <6 5>4 \bo <[6] 4> \bc <[5] 3>
+  r2. %5
+  <6 4>
+  <5 3>
+  <6>4 \bo <[6] 4> \bc <[5] 3>
+  r2.
+  r4 <6>2 %10
+  r2.
+  r4 <6> <7>
+  r2.
+  r4 <[6]>2
+  r2. %15
+  r
+  r
+  <6 4>4 <5 3>2
+  r2.
+  <6>2 \once \bassFigureExtendersOn q4 %20
+  r2.
+  \bo <[6]>2 \once \bassFigureExtendersOn \bc q4
+  <8>2. \bassFigureExtendersOn
+  q
+  q4 \bassFigureExtendersOff r r %25
+  <6>8. \bo <[6]>16 <6 4>4 \bc <[5] _+>
+  r2.
+  <6>8. \bo <[6]>16 <6 4>4 \bc <[5] _+>
+  r2.
+  <6 4> %30
+  <5 3>
+  <6>4 \bo <[6] 4> \bc <[5] _+>
+  r2.
+  <6 4>
+  <5 3> %35
+  <6>4 \bo <[6] 4> \bc <[5] _+>
+  r2.
+  r4 <6>2
+  <_+>2.
+  r4 \bo <[6 \l]> \bc <[7 _+]> %40
+  r2.
+  r4 \bo <[6]>2
+  <_+>2.
+  q
+  \bc <[_+]> %45
+  <6 4>4 <5 _+>2
+  \bo <[_+]>2.
+  \bc <[\t]>
+  <4+ 2>
+  <[5+] _+> %50
+  <[6+] 4+ 2>
+  <6>
+  <[5+] _+>
+  r
+  \bo <[5+] _+>4 \bc <[\t] \t> <5 [_+]> %55
+  <8>4 <\t> <5!>
+  <_!> <\t> <5>
+  <_+> <\t> <5>
+  <8> <\t> <5+>
+  <8> <\t> <5> %60
+  <8> <\t> <5>
+  \bo <[5+] _+> \bc <[\t] \t> <5 [_+]>
+  r2.
+  <5>
+  <7 5 [_+]> %65
+  \bo <[5+] _+>4 \bc <[\t] \t> <6>
+  <6+ 5> \bo <[5+] 4> \bc <[\t] \t>
+  r2.
+  r
+  <6 4> %70
+  <5 [3]>
+  <6>4 \bo <[6] 4> \bc <[5] 3>
+  r2.
+  <6 4>
+  <5 3> %75
+  <6>4 <6 4> <5 3>
+  r2.
+  r4 \bo <[6]> <7!>
+  r2.
+  <6> %80
+  r
+  \bc <[6]>
+  r2.
+  <4+ 2>2 <6>4
+  <[6]>2. %85
+  <6 4>4 <5 3>2
+  r2.
+  r
+  r
+  r %90
+  r
+  r
+  r
+  r
+  r %95
+  r4 <6>2
+  r2.
+  r4 <[6]> <7>
+  r2.
+  r4 <[6]>2 %100
+  r2.
+  r
+  <6 5>4 \bo <[6] 4> \bc <[5] 3>
+  r2.
+  r4 <6>2 %105
+  r2.
+  r4 <[6]> <7>
+  r2.
+  r4 <[6]>2
+  r2. %110
+  r
+  \bo <[6]>4 <6 4> \bc <[5] 3>
+  r2.
+  <6 4>
+  <5 [3]> %115
+  <6>4 \bo <[6] 4> \bc <[5] 3>
+  r2.
+  <6 4>
+  <5 [3]>
+  <6>4 \bo <[6] 4> \bc <[5] 3> %120
+  r2.
+  r %122 finis
+}
