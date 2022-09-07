@@ -407,3 +407,192 @@ GloriaBassoLyrics = \lyricmode {
   ca -- mus %120
   te. %121 finis
 }
+
+DomineBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoDomine
+      \set Score.currentBarNumber = #148
+    R2.*21 %168
+    \mvTr c4\fE^\solo e g
+    c g e %170
+    f d h'
+    c g e
+    f d h'
+    c4. c,8 c4
+    r c' e %175
+    d h g
+    fis a c
+    h4. a8 g4
+    d' c8([ h)] a([ g)]
+    fis([ e)] d4 d'~ %180
+    d c8[ h] a([ g)]
+    fis([ e)] d4 r
+    d( fis) a
+    d d, r
+    g( h) d %185
+    g, g, r
+    c'8[( e16 d] c8[ h]) a([ g)]
+    fis8([ a16 g] fis8[ e d c)]
+    h4 d g
+    e8([ a)] \appoggiatura g4 fis4. fis8 %190
+    g2 r4
+    R2.*20 %211
+    c,4 e g
+    c g e
+    f d h'
+    c g e %215
+    f d h'
+    c4. c,8 c4
+    g' f e
+    e d g8([ a]
+    g4 f) e %220
+    e d r
+    g c, g'
+    a8([ g)] a4 r
+    a d, a'
+    h8([ a)] h4 r %225
+    c2 d16([ c)] h8
+    c2 d16([ c)] h8
+    c4 f, fis
+    g g, r
+    h' c d %230
+    c c, r
+    h'( c) d
+    c c, r
+    h' c d
+    c8[ e16 d] c8[ h a g] %235
+    a[ c16 h] a8[ g f e]
+    f[ d] g4 g,
+    c2 r4
+    h' c d
+    c c, r %240
+    h'( c) d
+    c c, r
+    h' c d
+    c8[ e16 d] c8[ h a g]
+    a[ c16 h] a8[ g f e] %245
+    f[ d] g4 g,
+    c2 r4
+    R2.*19 %266
+    R2.\fermata \bar "||" %267 finis
+  }
+}
+
+DomineBassoLyrics = \lyricmode {
+  Do -- _ _ %169
+  _ _ _ %170
+  _ _ _
+  _ _ _
+  _ _ _
+  _ mi -- ne,
+  Do -- _ %175
+  _ _ _
+  _ _ _
+  _ mi -- ne,
+  Do -- mi -- ne
+  De -- us, Rex __ %180
+  _ coe --
+  le -- stis,
+  De -- us
+  Pa -- ter,
+  De -- us %185
+  Pa -- ter,
+  De -- us
+  Pa --
+  ter, Pa -- ter
+  o -- mni -- po -- %190
+  tens.
+
+  Do -- _ _ %212
+  _ _ _
+  _ _ _
+  _ _ _ %215
+  _ _ _
+  _ mi -- ne,
+  Do -- mi -- ne
+  De -- us, A --
+  gnus %220
+  De -- i,
+  Fi -- li -- us
+  Pa -- tris,
+  Fi -- li -- us
+  Pa -- tris, %225
+  Fi -- li -- us,
+  Fi -- li -- us,
+  Pa -- _ _
+  _ tris,
+  Do -- mi -- ne %230
+  De -- us,
+  A -- gnus
+  De -- i,
+  Fi -- li -- us
+  Pa -- _ %235
+  _ _
+  _ _ _
+  tris,
+  Do -- mi -- ne
+  De -- us, %240
+  A -- gnus
+  De -- i,
+  Fi -- li -- us
+  Pa -- _
+  _ _ %245
+  _ _ _
+  tris. %247 finis
+}
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #268
+    \mvTr a'2\fE^\tutti g
+    f4 f f2
+    f f4 f %270
+    r8 f4 f8 d4 d
+    cis1
+    fis4 r r2
+    r4 fis e!2
+    d4 d d2 %275
+    d d4 d
+    R1
+    dis8. dis16 dis4 dis8 dis dis dis
+    e4 e h2
+    e4 r r2 %280
+    r4 c b'2
+    a4 a d, d8 d
+    a2 d4 r
+    r2 r8 d4 d8
+    e4 e e2 %285
+    a,4 r r2
+    r4 a(\pE d) d
+    e a, e'2
+    a, r\fermata \bar "||" %289 finis
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- %268
+  lis pec -- ca --
+  ta mun -- di: %270
+  Mi -- se -- re -- re
+  no --
+  bis.
+  Qui tol --
+  lis pec -- ca -- %275
+  ta mun -- di:
+
+  Su -- sci -- pe de -- pre -- ca -- ti --
+  o -- nem no --
+  stram. %280
+  Qui se --
+  des ad dex -- te -- ram
+  Pa -- tris:
+  Mi -- se --
+  re -- re no -- %285
+  bis,
+  mi -- se --
+  re -- re no --
+  bis. %289 finis
+}

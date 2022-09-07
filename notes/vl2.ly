@@ -310,3 +310,157 @@ GratiasViolinoII = {
     g8 \appoggiatura fis32 e16 d32 c \slurDashed c16(-\critnote h) h( a) g4 r\fermata \bar "||"
   }
 }
+
+DomineViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDomine
+      \set Score.currentBarNumber = #148
+    \mvTr c8\fE-\critnote c e e g g
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h' %150
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 c, c'16 h c d
+    e4 c, e'16 d e f
+    g4 c,8.[ g'16 a8. c,16] %155
+    \appoggiatura c8 h4 g e'16(\pE d e f)
+    g4 c,8.[ g'16 a8. c,16]
+    \appoggiatura c8 h4 g r
+    g8\fE g16 a h8 h16 c d8 d16 e
+    f4 e8.[ g16 e8. c16] %160
+    d8.( e32 f) e8.[ g16 e8. c16]
+    d8.( e32 f) e8.[ g16 c8. c,16]
+    \appoggiatura g' f8 e16 d c4 h\trillE
+    c4 c16( h c d) c( h c d)
+    e4 g,8.[ e'16 f,8. d'16] %165
+    e,4 c'16( h c d) c( h c d)
+    c4 e,8.[ c'16 d,8. h'16]
+    c,4 r r
+    c8\p c e e g g
+    c4 g16 a g f e8 c' %170
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c16 h c d c8 c,\fE e g
+    <c e,>4 r g\pE %175
+    g r d
+    fis r a
+    d,4. c8 h4
+    d r e
+    a, r r %180
+    d r e
+    a, r r
+    d8 d fis fis a a
+    d4 r r
+    g,8 g h h d d %185
+    g4 r r
+    g, r r
+    fis r r
+    g,8 a h a h g
+    c a d c d d %190
+    g g h h d d
+    g4 d16 e d c h8 g'
+    \appoggiatura d16 c8 h16 c a8 c d, fis'
+    g4 d16 e d c h8 g'
+    \appoggiatura d16 c8 h16 c a8 c d, fis' %195
+    h,16 a h c h8 g\fE h d
+    h4 r g8\pE a
+    h4 c d
+    c h a
+    a gis r %200
+    e r e
+    e r e
+    e r c'
+    a r gis
+    a8 h a4 gis\trillE %205
+    a8\fE a c c e e
+    a e,16 d c8 c16 h a8 e''
+    \appoggiatura e16 d8 c16 h a4 gis
+    c8 e,16 d c8 c16 h a8 e''
+    \appoggiatura e16 d8 c16 h a4 gis %210
+    a r r
+    c,8\pE c e e g g
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 g16 a g f e8 c' %215
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    e,16 d e f e8 c e f
+    g4 f e
+    e d g8 a
+    g4 f e %220
+    e d r
+    g16 f g a g8 c, e g
+    a2 a4
+    a16 g a h a8 d, fis a
+    h2 h4 %225
+    c2 d16^\critnote c h8
+    c2 d16 c h8
+    g4 a d,
+    d8 c h4 r
+    g r r %230
+    e''16 d e f e8 e d c
+    h4 r r
+    e16 d e f e8 e d c
+    h4 r r
+    R2.*3 %237
+    c,8-\critnote c e e g g
+    g,4 r r
+    e''16 d e f e8 e d c %240
+    h4 r r
+    e16 d e f e8 e d c
+    h4 r r
+    R2.*3 %246
+    c,8\f c e e g g
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 g16 a g f e8 c' %250
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 c, c'16 h c d
+    e4 c, e'16 d e f
+    g4 c,8.[ g'16 a8. c,16]
+    \appoggiatura c8 h4 g e'16 d e f %255
+    g4 c,8.[ g'16 a8. c,16]
+    \appoggiatura c8 h4 g r
+    g8 g16 a h8 h16 c d8 d16 e
+    f4 e8.[ g16 e8. c16]
+    d8.( e32 f) e8.[ g16 e8. c16] %260
+    d8.( e32 f) e8.[ g16 c8. c,16]
+    \appoggiatura g' f8 e16 d c4 h\trillE
+    c \slurDashed c16( h c d) c( h c d)
+    e4 g,8.[ e'16 f,8. d'16]
+    e,4 c'16( h c d) c( h c d) \slurSolid %265
+    c4 e,8.[ c'16 d,8. h'16]
+    c,4 r r\fermata \bar "||" %267 finis
+  }
+}
+
+QuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #268
+    c'8\fE c c c cis cis cis cis
+    d d d d es es es es
+    d d d d d4 c %270
+    r8 as as as gis gis gis gis
+    gis gis a a gis gis gis gis
+    a-!\fp cis( h a) gis-!\fp h( a gis)
+    a a a\fE a ais ais ais ais
+    h h h h c! c c c %275
+    h h h h h4 a
+    r8 fis-! fis( g) a-! a a( h)
+    c8. c16 c4 c8 c c c
+    h h e e e e dis dis
+    e-!\fp h( a g) fis-!\fp a( g fis) %280
+    g4 g\fE g8 g g g
+    g g g g f! f f f
+    e e e e f-!\fp a( g f)
+    e-!\fp g( f e) f a\fE a a
+    gis gis a a a a gis gis %285
+    a-!\fp e'( d c) h-!\fp d( c h)
+    c e, e e e e d d
+    d d c c h h h h
+    cis2 r\fermata \bar "||" %289 finis
+  }
+}

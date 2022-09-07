@@ -525,3 +525,58 @@ GratiasAltoLyrics = \lyricmode {
   _ _ _ ri -- am tu -- %145
   am. %146 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #268
+    \mvTr a'2\fE^\tutti a
+    a4 a a2
+    f f4 f %270
+    r8 as4 as8 gis4 gis
+    gis( a gis2)
+    a4 r r2
+    r4 fis fis2
+    fis4 fis fis2 %275
+    g g4 fis
+    R1
+    fis8. fis16 fis4 fis8 fis fis fis
+    g4 g fis2
+    g4 r r2 %280
+    r4 g g2
+    g4 g f! f8 f
+    e2 f4 r
+    r2 r8 a4 a8
+    gis4 a a( gis) %285
+    a r r2
+    r4 a(\pE f) f
+    e e e2
+    e r\fermata \bar "||" %289 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui tol -- %268
+  lis pec -- ca --
+  ta mun -- di: %270
+  Mi -- se -- re -- re
+  no --
+  bis.
+  Qui tol --
+  lis pec -- ca -- %275
+  ta mun -- di:
+
+  Su -- sci -- pe de -- pre -- ca -- ti --
+  o -- nem no --
+  stram. %280
+  Qui se --
+  des ad dex -- te -- ram
+  Pa -- tris:
+  Mi -- se --
+  re -- re no -- %285
+  bis,
+  mi -- se --
+  re -- re no --
+  bis. %289 finis
+}

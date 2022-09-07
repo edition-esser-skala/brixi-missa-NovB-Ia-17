@@ -304,3 +304,157 @@ GratiasViolinoI = {
     h8 \appoggiatura d32 c16 h32 a \slurDashed a16(^\critnote g) g( fis) \slurSolid g4 r\fermata \bar "||"
   }
 }
+
+DomineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDomine
+      \set Score.currentBarNumber = #148
+    \mvTr c8\fE-\critnote c e e g g
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h' %150
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 c, c'16 h c d
+    e4 c, e'16 d e f
+    g4 c,8.[ g'16 a8. c,16] %155
+    \appoggiatura c8 h4 g e'16(\p d e f)
+    g4 c,8.[ g'16 a8. c,16]
+    \appoggiatura c8 h4 g r
+    g8\f g16 a h8 h16 c d8 d16 e
+    f4 e8.[ g16 e8. c16] %160
+    d8.( e32 f) e8.[ g16 e8. c16]
+    d8.( e32 f) e8.[ g16 c8. g16]
+    \appoggiatura h a8 g16 f e4 d\trill
+    c4 c16( h c d) c( h c d)
+    e4 g,8.[ e'16 f,8. d'16] %165
+    e,4 c'16( h c d) c( h c d)
+    c4 e,8.[ c'16 d,8. h'16]
+    c,4 r r
+    c8\p c e e g g
+    c4 g16 a g f e8 c' %170
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c16 h c d c8 c,\f e g
+    <c e,>4 r e\p %175
+    d r h
+    a r c
+    h4. a8 g4
+    d' c8 h a g
+    fis e d4 d' %180
+    d c8 h a g
+    fis e d4 r
+    R2.
+    fis'16 e fis g a8 a, c16 h c d
+    h4 r r %185
+    h'16 a h c d8 d, f!16 e f g
+    e4 r r
+    d r r
+    g,,8 a h a h g
+    c a d c d d %190
+    g g h h d d
+    g4 d16 e d c h8 g'
+    \appoggiatura d16 c8 h16 c a8 c d, fis'
+    g4 d16 e d c h8 g'
+    \appoggiatura d16 c8 h16 c a8 c d, fis' %195
+    g16 fis g a g8 g,\f h d
+    g4 g,8\p a h c
+    d4 e f!
+    e d c
+    c h r %200
+    a r c
+    h r h
+    c8 c e e a a
+    f f e e d d
+    c d c4 h\trillE %205
+    a8\fE a c c e e
+    a e,16 d c8 c16 h a8 e''
+    \appoggiatura g16 f8 e16 d c4 h
+    a'8 e,16 d c8 c16 h a8 e''
+    \appoggiatura g16 f8 e16 d c4 h %210
+    a r r
+    c,8\pE c e e g g
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 g16 a g f e8 c' %215
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c16 h c d c8 c, c' d
+    e4 d c
+    c h e8 f
+    e4 d c %220
+    c h r
+    c2 c4
+    c16 h c d c8 f, a c
+    d2 d4
+    d16 c d e d8 g, h d %225
+    e2 f16^\critnote e d8
+    e2 f16 e d8
+    e8 f16 e d8 c h a
+    h a g4 r
+    g, r r %230
+    c''16 h c d c8 g f e
+    d4 r r
+    c'16 h c d c8 g f e
+    d4 r r
+    R2.*3 %237
+    c,8 c e e g g
+    g,4 r r
+    c''16 h c d c8 g f e %240
+    d4 r r
+    c'16 h c d c8 g f e
+    d4 r r
+    R2.*3 %246
+    c,8\f c e e g g
+    c4 g16 a g f e8 c'
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 g16 a g f e8 c' %250
+    \appoggiatura g16 f8 e16 f d8 f g, h'
+    c4 c, c'16 h c d
+    e4 c, e'16 d e f
+    g4 c,8.[ g'16 a8. c,16]
+    \appoggiatura c8 h4 g e'16 d e f %255
+    g4 c,8.[ g'16 a8. c,16]
+    \appoggiatura c8 h4 g r
+    g8 g16 a h8 h16 c d8 d16 e
+    f4 e8.[ g16 e8. c16]
+    d8.( e32 f) e8.[ g16 e8. c16] %260
+    d8.( e32 f) e8.[ g16 c8. g16]
+    \appoggiatura h a8 g16 f e4 d\trillE
+    c c16( h c d) c( h c d)
+    e4 g,8.[ e'16 f,8. d'16]
+    e,4 c'16( h c d) c( h c d) %265
+    c4 e,8.[ c'16 d,8. h'16]
+    c,4 r r\fermata \bar "||" %267 finis
+  }
+}
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #268
+    a''8\fE a a a a a a a
+    a a a a a a a a
+    b b b b b4 a %270
+    r8 f f f f f f f
+    eis eis fis fis fis fis eis eis
+    fis-!\fp a( gis fis) eis-!\fp gis( fis eis)
+    fis fis fis\fE fis fis fis fis fis
+    fis fis fis fis fis fis fis fis %275
+    g g g g g4 fis
+    r8 d-! d( e) fis-! fis fis( g)
+    a8. a16 a4 a8 a a a
+    g g g g fis fis fis fis
+    g-!\fp g( fis e) dis-!\fp-! fis( e dis) %280
+    e4 e\fE e8 e e e
+    e e e e d d d d
+    d d cis cis d-!\fp f( e d)
+    cis-!\fp e( d cis) d f\fE f f
+    e e e e e e e e %285
+    e-!\fp c'( h a) gis-!\fp h( a gis)
+    a c, c c c c h a^\critnote
+    gis gis a a a a gis gis
+    a2 r\fermata \bar "||" %289 finis
+  }
+}

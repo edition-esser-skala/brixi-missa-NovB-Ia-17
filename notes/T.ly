@@ -394,3 +394,166 @@ GloriaTenoreLyrics = \lyricmode {
   ca -- mus %120
   te. %121 finis
 }
+
+DomineTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoDomine
+      \set Score.currentBarNumber = #148
+    R2.*43 %190
+    \mvTr g4\pE^\solo h d
+    g d h
+    c a fis'
+    g d h
+    c a fis' %195
+    g4. g,8 g4
+    r g8([ a)] h c
+    d4( e) f!
+    e( d) c
+    c8 h h4 r %200
+    a8[ c16 h] a8[ h c a]
+    h[ d16 c] h8[ c d h]
+    c4 e a
+    f e d
+    c8([ d)] c4( h)\trill %205
+    a2 r4
+    R2.*11 %217
+    e'4 d c
+    c h e8([ f]
+    e4 d) c %220
+    c h r
+    R2.
+    c4 f,^\critnote c'
+    d8([ c)] d4 r
+    d g, d' %225
+    e2 f16[ e d8]
+    e2 f16[ e d8]
+    e[ f16 e] d8[ c h a]
+    h[ a] g4 r
+    d' e f %230
+    \tuplet 3/2 4 { e8([ d c)] } c4 r
+    d( e) f
+    \tuplet 3/2 4 { e8([ d c)] } c4 r
+    d4 e f
+    e8[ g16 f] e8[ d c h] %235
+    c[ e16 d] c8[ h a g]
+    a[ d] c4 h
+    c2 r4
+    d\p e f
+    \tuplet 3/2 4 { e8([ d c)] } c4 r %240
+    d( e) f
+    \tuplet 3/2 4 { e8([ d c)] } c4 r
+    d4 e f
+    e8[\f g16 f] e8[ d c h]
+    c[ e16 d] c8[ h a g] %245
+    a[ d] c4 h
+    c2 r4
+    R2.*19 %266
+    R2.\fermata \bar "||" %267 finis
+  }
+}
+
+DomineTenoreLyrics = \lyricmode {
+  Do -- _ _ %191
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _ %195
+  _ mi -- ne,
+  Do -- mi -- ne
+  Fi -- li
+  u -- ni --
+  ge -- ni -- te, %200
+  Je -- _
+  _ _
+  _ _ _
+  _ _ _
+  su Chri -- %205
+  ste.
+
+  Do -- mi -- ne %218
+  De -- us, A --
+  gnus %220
+  De -- i,
+
+  Fi -- li -- us
+  Pa -- tris,
+  Fi -- li -- us %225
+  Pa -- _
+  _ _
+  _ _
+  _ tris,
+  Do -- mi -- ne %230
+  De -- us,
+  A -- gnus
+  De -- i,
+  Fi -- li -- us
+  Pa -- _ %235
+  _ _
+  _ _ _
+  tris,
+  Do -- mi -- ne
+  De -- us, %240
+  A -- gnus
+  De -- i,
+  Fi -- li -- us
+  Pa -- _
+  _ _ %245
+  _ _ _
+  tris. %247 finis
+}
+
+QuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #268
+    \mvTr e2\fE^\tutti e
+    d4 d c!2
+    b b4 a %270
+    r8 c4 c8 h!4 h
+    h( a!8[ h] cis2)
+    cis4 r r2
+    r4 cis cis2
+    d4 d a!2 %275
+    d d4 d
+    R1
+    a8. a16 a4 a8 a a a
+    g4 h h2
+    h4 r r2
+    r4 c c2
+    cis4 cis a a8 a
+    a2 a4 r
+    r2 r8 d4 d8
+    d4 c! h2
+    c4 r r2
+    r4 e2\pE d4
+    d c h2
+    cis r\fermata \bar "||"
+  }
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+  Qui tol -- %268
+  lis pec -- ca --
+  ta mun -- di: %270
+  Mi -- se -- re -- re
+  no --
+  bis.
+  Qui tol --
+  lis pec -- ca -- %275
+  ta mun -- di:
+
+  Su -- sci -- pe de -- pre -- ca -- ti --
+  o -- nem no --
+  stram. %280
+  Qui se --
+  des ad dex -- te -- ram
+  Pa -- tris:
+  Mi -- se --
+  re -- re no -- %285
+  bis,
+  mi -- se --
+  re -- re no --
+  bis. %289 finis
+}

@@ -636,3 +636,309 @@ GratiasBassFigures = \figuremode {
   r1
   r8 \bo <[6]> <6 4>8 \bc <[5] 3> r2 %147 finis
 }
+
+DomineOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoDomine
+      \set Score.currentBarNumber = #148
+    \mvTr c2\fE-\solo r4
+    c e c
+    d h g %150
+    c e c
+    d h g
+    c8 c c c c c
+    c[ c c c] c8. d16
+    e8 e e e f fis %155
+    g[ g g g] c,8.\pE d16
+    e8 e e e f fis
+    g4 r8 g,\fE h d
+    g4 r r
+    h c r %160
+    h c r
+    h c e,
+    f g g,
+    c r r
+    c g' g, %165
+    c r r
+    e g g,
+    c r r
+    c2\p r4
+    c e c %170
+    d h g
+    c e c
+    d h g
+    c r c\fE
+    c r c'\pE %175
+    h r g
+    d r d
+    g g, r
+    h r c
+    d r d %180
+    h r c
+    d4. d8 fis? a
+    d,4 r r
+    d8 d fis fis a a
+    g4 r r %185
+    g8 g h h d d
+    c4 r r
+    d, r r
+    g,8 a h a h g
+    c a d c d d, %190
+    g4 r r
+    g' h g
+    a fis d
+    g h g
+    a fis d %195
+    g g g\fE
+    g r r
+    g2\pE h,4
+    c d dis
+    e4. d8 c h %200
+    c4 r a'
+    gis r gis
+    a c a
+    d c h
+    a e e, %205
+    a2 r4
+    a'8\fE e16 d c8 c16 h a4
+    d e e,
+    a'8 e16 d c8 c16 h a4
+    d e e, %210
+    a8 a' g! f e d
+    c4 r r
+    c\pE e c
+    d h g
+    c e c %215
+    d h g
+    c c r
+    c d e8 f
+    g4 g, r
+    c d e8 f %220
+    g4. g,8 g' f
+    e e e e e e
+    f f f f f f
+    fis fis fis fis fis fis
+    g g g g g g %225
+    c c,16 d e8 c g' g,
+    c' c,16 d e8 c g' g,
+    c4 f fis
+    g4. g,8 h d
+    g g g g g g %230
+    c4 r r
+    g8 g g g g g
+    c4 c, r
+    g'8 g g g g g
+    c4 r r %235
+    a r r
+    f8 d g g, g' g,
+    c2 r4
+    g'8 g g g g g
+    c4 r r %240
+    g8 g g g g g
+    c4 c, r
+    g'8 g g g g g
+    c4 r r
+    a r r %245
+    f8 d g4 g,
+    c2 r4
+    c e c
+    d h g
+    c e c %250
+    d h g
+    c8 c c c c c
+    c[ c c c] c8.^\critnote d16
+    e8 e e e f fis
+    g[ g g g] c,8. d16 %255
+    e8 e e e f fis
+    g4 r8 g, h d
+    g4 r r
+    h c r
+    h c r %260
+    h c e,
+    f g g,
+    c r r
+    c g' g,
+    c r r %265
+    e^\critnote g g,
+    c r r\fermata \bar "||" %267 finis
+  }
+}
+
+DomineBassFigures = \figuremode {
+  r2. %148
+  r
+  r4 <6>2 %150
+  r2.
+  r4 <[6]>2
+  r2.
+  r2 r8. \bo <[6]>16
+  <6>2. %155
+  r2 r8. <6>16
+  \bc <[6]>2.
+  r
+  r
+  <6 [5]> %160
+  <[6 5]>
+  <6 [5]>2 <6>4
+  q \bo <[6 4]> \bc <[5 3]>
+  r2.
+  r4 \bo <[6] 4> \bc <[5] 3> %165
+  r2.
+  \bo <[6]>4 <6 4> \bc <[5] 3>
+  r2.
+  r
+  r %170
+  r4 <6> <7>
+  r2.
+  r4 <6>2
+  r2.
+  r %175
+  <[6]>
+  <_+>2 <7 [_+]>4
+  r2.
+  <[6]>2 <6>8 <5>
+  <_+>2. %180
+  \bo <[6]>2 <6>8 \bc <[5]>
+  <_+>2.
+  q
+  q
+  r %185
+  r
+  r
+  <_+>
+  r
+  \bo <[6 \l]>4 <6 4> \bc <[5 _+]> %190
+  r2.
+  r
+  r4 <6 5> <\t \t>
+  r2.
+  r4 \bo <[6 5]> \bc <\t \t> %195
+  r2.
+  r
+  <5 3>4 <6 4> <[6 5!]>
+  r <6> <5 [_+]>
+  \bo <[6] 4> <5 _+>2 %200
+  <6>2.
+  \bc <[6]>
+  r
+  r4 <[6]> <6\\>
+  r \bo <[6] 4> \bc <[5] _+> %205
+  r2.
+  r
+  \bo <[6]>4 <6 4> \bc <[5] _+>
+  r2.
+  \bo <[6]>4 <6 4> \bc <[5] _+> %210
+  r2.
+  r
+  r
+  r4 <[6]>2
+  r2. %215
+  r4 <[6]>2
+  r2.
+  r4 \bo <[6]> \bc q
+  <6 4> <5 3>2
+  r4 <6> <[6]> %220
+  <6 4> <5 3>2
+  <6>2.
+  r
+  <[6]>
+  r %225
+  r
+  r
+  r4 \bo <[6 3]>8 <5 \t> <6 _+> \bc <[5 \t]>
+  r2.
+  <[5] 3>4 <6 4> <7 5> %230
+  r2.
+  <5 [3]>4 <6 4> <7 5>
+  r2.
+  <5 [3]>4 <6 4> <7 5>
+  r2. %235
+  r
+  \bo <[6 \l]>4 <6 4> \bc <[5 3]>
+  r2.
+  <5 [3]>4 <6 4> <7 5>
+  r2. %240
+  <5 [3]>4 <6 4> <7 5>
+  r2.
+  <5 [3]>4 <6 4> <7 5>
+  r2.
+  r %245
+  \bo <[6]>4 <6 4> \bc <[5] 3>
+  r2.
+  r
+  r4 <6>2
+  r2. %250
+  r4 <6>2
+  r2.
+  r2 r8. \bo <[6]>16
+  <6>2.
+  r2 r8. <6>16 %255
+  \bc <[6]>2.
+  r
+  r
+  <6 [5]>
+  q %260
+  q2 <[6]>4
+  \bo <[6]> <6 4> \bc <[5] 3>
+  r2.
+  r4 \bo <[6 4]> \bc <[5 3]>
+  r2. %265
+  r4 \bo <[6 4]> \bc <[5 3]>
+  r2. %267 finis
+}
+
+QuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #268
+    \mvTr a'8\fE-\tutti a a a g g g g
+    f f f f f f f f
+    f f f f f,4 f %270
+    r8 f' f f d d d d
+    cis1
+    fis8\fpE r r4 cis?\fpE r
+    fis8 fis fis\fE fis e! e e e
+    d d d d d d d d %275
+    d d d d d4 d
+    R1
+    dis8. dis16 dis4 dis8 dis dis dis
+    e e e e h h h h
+    e\fpE r r4 h\fpE r %280
+    e c\fE b'8 b b b
+    a a a a d, d d d
+    a a a a d\fpE r r4
+    a\fpE r d8 d\fE d d
+    e4 e e2 %285
+    a,8\fpE r r4 e'\fpE r
+    a,8 a a a d d d d
+    e e a, a e' e e e
+    a,2 r\fermata \bar "||" %289 finis
+  }
+}
+
+QuiTollisBassFigures = \figuremode {
+  r2 <4+ 2> %268
+  <6> <7- 5!>
+  <6 4-> <\t \t>4 <5 3> %270
+  r8 <_->4. <6! 4+ 3>2
+  <7 [5+] _+>4 <6! 4+> <5+ \t> <\t _+>
+  \bo <[5+ 3]>2 \bc <[5+ _+]>
+  <5+ 3> <[6+] 4+ 2+>
+  <6 _+> <7! [5!] _+> %275
+  <6 4> <\t \t>4 <5 _+>
+  r1
+  <7 5 [_+]>1
+  r2 \bo <[5+] 4>4 \bc <[\t] _+>
+  r2 <[5+] _+> %280
+  r <4 2>
+  <[7] 5 _+> <_!>
+  <4>4 <_+>2.
+  <[_+]>1
+  <7 _+>4 <6! 4> <5 \t> <\t _+> %285
+  r2 <_+>
+  r2 <9 7>4 <8 6>
+  <7 _+>2 <4>4 <_+>
+  <[_+]>1 %289 finis
+}
