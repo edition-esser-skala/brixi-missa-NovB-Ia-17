@@ -942,3 +942,244 @@ QuiTollisBassFigures = \figuremode {
   <7 _+>2 <4>4 <_+>
   <[_+]>1 %289 finis
 }
+
+QuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \tempoQuoniam
+      \set Score.currentBarNumber = #290
+    \mvTr a'4\fE-\solo r8 a
+    e a, r4
+    r r8 a'
+    e a, r4
+    r8 a' gis a
+    h a a, r %295
+    r a'\p gis a
+    h a r cis,\f
+    r cis d dis
+    e r a r
+    gis r fis r %300
+    e4 r
+    e r8 gis
+    a4 r8 d,
+    cis4 r
+    r8 d e e, %305
+    a4 r
+    cis'8 a h e,
+    a,4\pE r
+    cis'8 a h e,
+    a\fE cis, d e %310
+    a a, r4
+    a'\p r8 a
+    e a, r4
+    r r8 a'
+    e a, r4 %315
+    r8 a' gis a
+    h a a, r
+    r a' gis a
+    h a a, r
+    r cis d dis %320
+    e4 e,
+    r8 e' fis dis
+    e r e r
+    r dis e cis
+    dis r dis r %325
+    r e fis dis
+    e4 r8 a
+    gis r fis e
+    h' h, h'16 a gis fis
+    e4 r %330
+    gis8 e fis h,
+    e4 r
+    gis8 e fis h,
+    e r e r
+    e r e r %335
+    e16 e gis gis a a fis fis
+    h8 h h, h
+    e4 r8 a\f
+    gis fis gis e
+    dis r e r %340
+    fis r r dis
+    e r gis r
+    a fis h h,
+    e h e,4
+    e'\p r8 e %345
+    h e e, r
+    r4 r8 e'
+    h e e16 d! cis h
+    a4 r8 a'
+    e a, r4 %350
+    r r8 a'
+    e a, a r
+    r d cis d
+    e d d, r
+    r d' cis d %355
+    e d r d'
+    cis cis, r cis'
+    h h, r gis'
+    a a, r a'
+    d,4 r8 dis %360
+    e e, e4
+    r8 a' h gis
+    a r a r
+    r gis a fis
+    gis r gis r %365
+    r a h gis
+    a r r d
+    cis r h a
+    e' e, e16 d cis h
+    a4 r %370
+    cis'8 a h e,
+    a4 r
+    cis8 a h e,
+    a16 a cis, cis d d fis fis
+    e8 e e, e %375
+    a4 r
+    cis'8 a h e,
+    a4 r
+    cis8 a h e,
+    a cis a gis %380
+    fis a fis dis
+    e2\fermata
+    a4\fE r8 a
+    e a, r4
+    r r8 a' %385
+    e a, r4
+    r8 a' gis a
+    h a a, r
+    r a'\p gis a
+    h a r cis,\f %390
+    r cis d dis
+    e r a r
+    gis r fis r
+    e4 r
+    e r8 gis %395
+    a4 r8 d,
+    cis4 r
+    r8 d e e,
+    a4 r
+    cis'8 a h e, %400
+    a4\pE r
+    cis8 a h e,
+    a\fE cis, d e
+    a,4 r\fermata \bar "||" %404 finis
+  }
+}
+
+QuoniamBassFigures = \figuremode {
+  r2 %290
+  r
+  r
+  r
+  r4 <6>
+  \bo <[6]>2 %295
+  r4 <6>
+  \bc <[6]>4. <6>8
+  r \bo <[6]>4.
+  r2
+  <6>4 <7> %300
+  r2
+  r4. \bc <[6]>8
+  r2
+  <6>
+  r4 \bo <[6] 4>8 \bc <[5] 3> %305
+  r2
+  \bo <[6]>4 <7>8 q
+  r2
+  <6>4 <7>8 q
+  r <6> \bc <[6]>4 %310
+  r2
+  r
+  r
+  r
+  r %315
+  r4 <6>
+  <[6]>2
+  r4 <6>
+  \bo <[6]>2
+  r8 \bc q4 <7>8 %320
+  r2
+  r4 \bo <[6\\]>8 <6>
+  r2
+  r8 <6>4 <7>8
+  <6>4 <\t> %325
+  r <6\\>8 \bc <[6]>
+  r2
+  <6>4 \bo <[6\\]>
+  <6 4>8 \bc <[5] _+>4.
+  r2 %330
+  <[6]>4 <7>8 <7 [_+]>
+  r2
+  \bo <[6 \l]>4 <7>8 \bc <[7 _+]>
+  r2
+  r %335
+  r8 \bo <[6]>4.
+  <6 4>4 \bc <[5] _+>
+  r2
+  \bo <[6]>8 <6\\> <6>4
+  <6>2 %340
+  <6\\>4. <6>8
+  r4 q
+  <6>4 <6 4>8 \bc <[5] _+>
+  r2
+  r %345
+  \bo <[_+]>
+  r
+  <_+>
+  r
+  <7!> %350
+  r
+  r
+  r4 \bc <[6]>
+  <6 [_!]>2
+  r4 <[6]> %355
+  <6 _!>2
+  \bo <[6]>
+  <6\\>4. \bc <[6]>8
+  r2
+  <7>8 <6>4. %360
+  <9 4>8 <8 3>4.
+  r4 \bo <[6 \l]>8 <6>
+  r2
+  r8 <6>4 <7>8
+  <6>4 <\t> %365
+  r4 <6>8 q
+  r2
+  <6>4 q
+  <6 4>8 <5 3>4.
+  r2 %370
+  \bc <[6 \l]>4 <7>8 q
+  r2
+  <[6]>4 <7>8 \bo <[7]>
+  r <6>4 <6>8
+  <6 4>4 \bc <[5] 3> %375
+  r2
+  \bo <[6 \l]>4 <7>8 q
+  r2
+  <6>4 <7>8 q
+  <8 3>2 \bassFigureExtendersOn %380
+  q4. q8 \bassFigureExtendersOff
+  <6 4>4 \bc <[5 3]>
+  r2
+  r
+  r %385
+  r
+  r4 <6>
+  <[6]>2
+  r4 <6>
+  <6>4. \bc <[6]>8 %390
+  r <6>4.
+  r2
+  <6>4 \bo <[7]>
+  r2
+  r4. <6>8 %395
+  r2
+  \bc <[6]>
+  r4 \bo <[6] 4>8 \bc <[5] 3>
+  r2
+  <[6]>4 <7>8 <[7]> %400
+  r2
+  <6>4 <7>8 q
+  r8 <6> \bc <[6]>4
+  r2 %404 finis
+}

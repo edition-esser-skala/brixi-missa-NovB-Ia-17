@@ -523,9 +523,153 @@ QuiTollisSopranoLyrics = \lyricmode {
   bis. %289 finis
 }
 
+QuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 2/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #290
+    R2*22 %311
+    \mvTr cis'8.\pE^\solo d16 e8 e
+    \appoggiatura e16 d8 cis r a'16([ gis)]
+    gis([ fis)] fis([ e)] e([ d)] d([ cis)]
+    \appoggiatura cis16 h8 a r e %315
+    \tuplet 3/2 8 { e16[ fis gis] a[ h cis] h[ cis d] cis([ d e)]  }
+    \appoggiatura e d8 cis r e,
+    \tuplet 3/2 8 { e16[ fis gis] a[ h cis] h[ cis d] cis([ d e)]  }
+    d16. d32 cis8 r a'
+    \tuplet 3/2 8 { a16([ gis fis] e[ d cis)] fis([ e d)] cis([ h a)] } %320
+    \appoggiatura a gis8. fis16 e4
+    \once \tieDashed h'2~
+    h16[ e] e16.([\trill dis64 e)] h16[ e] e16.([\trill dis64 e)]
+    \once \tieDashed h2~
+    h16[ fis'] fis16.[(\trill e64 fis)] h,16[ fis'] fis16.[(\trill e64 fis)] %325
+    \once \tieDashed h,2~
+    h16[ e,-! fis-! gis-!] a[-! h-! cis-! dis-!]
+    e[ dis cis h] \appoggiatura h a8 gis
+    gis fis r4
+    \tuplet 3/2 8 { e16[ fis gis] a[ h cis] h[ cis dis] e[ dis e] } %330
+    h8.[\trillE gis16] \appoggiatura h a8[ gis16 fis]
+    \tuplet 3/2 8 { e16[ fis gis] a[ h cis] h[ cis dis] e[ dis e] }
+    h8.[\trill gis16] \appoggiatura h a8[ gis16 fis]
+    gis8 e'32[ dis e fis] e8 e32[ dis e fis]
+    gis8 gis32[ fis gis a] gis8 gis32[ fis gis a] %335
+    \appoggiatura ais16 h8[ h] cis,([ a'16 fis)]
+    e4( dis)\trill
+    e r
+    R2*6 %344
+    gis,8. a16 h8 h %345
+    \appoggiatura h16 a8 gis r e'16([ dis)]
+    dis([ cis)] cis([ h)] h([ a)] a([ gis)]
+    \appoggiatura gis fis8 e r4
+    cis'8. d!16 e8 e
+    \appoggiatura e16 d8 cis r a'16([ gis)] %350
+    gis([ fis)] fis([ e)] e([ d)] d([ cis)]
+    \appoggiatura cis h8 a r a
+    \tuplet 3/2 8 { a16[ h cis] d[ e fis] e[ fis g] fis[( g a)] }
+    g g fis8 r a,
+    \tuplet 3/2 8 { a16[( h cis] d[ e fis]) e[ fis g] fis[( g a)] } %355
+    g16. g32 fis8 fis[ g16 fis]
+    e[ cis h a] a'8.[ e16]
+    d8.([\trill cis32 d)] e,16[ gis! h d]
+    cis[ d e8] \appoggiatura d8 cis4
+    cis16([ h) d( cis)] cis([\trill h)] h([\trill a)] %360
+    a8 gis r4
+    \tieDashed e'2~
+    e~
+    e~
+    e8~ \tuplet 3/2 8 { e16[ gis a] h[ a gis] fis[ e d] } %365
+    cis8 e4.~
+    e16[ a,-! h-! cis-!] d-![ e-! fis-! gis-!] \tieSolid
+    a-![ gis-! fis-! e-!] d8 cis
+    cis\trill h r4
+    \tuplet 3/2 8 { a16[ h cis] d[ e fis] e[ fis gis] a[ gis a] } %370
+    e8.[ cis16] \appoggiatura e d8[ cis16 h]
+    \tuplet 3/2 8 { a16[ h cis] d[ e fis] e[ fis gis] a[ gis a] }
+    e8.[ cis16] \appoggiatura e d8[ cis16 h]
+    cis8[ a'] \appoggiatura gis16 fis8 e16([ d])
+    cis4( h)\trill %375
+    a r
+    e'8.[ cis16] \appoggiatura e d8[ cis16 h]
+    \tuplet 3/2 8 { a16[ h cis] d[ e fis] e[ fis gis] a[ gis a] }
+    e8.[ cis16] \appoggiatura e d8[ cis16 h]
+    cis8[ a'] \tieDashed a4~ %380
+    a2~
+    a8.\fermata \tieSolid a,32([ h)] h4\trill
+    a r
+    R2*20 %403
+    R2\fermata \bar "||" %404 finis
+  }
+}
 
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+QuoniamSopranoLyrics = \lyricmode {
+  Quo -- ni -- am tu %312
+  so -- lus, tu
+  so -- lus, so -- lus
+  san -- ctus, tu %315
+  so -- _ _ lus __
+  san -- ctus, tu
+  so -- _ _ lus __
+  Do -- mi -- nus, tu
+  so -- lus __ al -- %320
+  tis -- si -- mus,
+  Je --
+  _ _ _
+  _
+  _ _ _ %325
+  _
+  _
+  _ _ su
+  Chri -- ste,
+  Je -- _ _ _ %330
+  _ _
+  _ _ _ _
+  _ _
+  su, Je -- _ _
+  _ _ _ _ %335
+  _ su __
+  Chri --
+  ste.
+
+  Quo -- ni -- am tu %345
+  so -- lus, tu
+  so -- lus, so -- lus
+  san -- ctus,
+  quo -- ni -- am tu
+  so -- lus, tu %350
+  so -- lus, so -- lus
+  san -- ctus, tu
+  so -- _ _ lus __
+  Do -- mi -- nus, tu
+  so -- lus __ al -- %355
+  tis -- si -- mus, Je --
+  _ _
+  _ _
+  _ su,
+  Je -- su %360
+  Chri -- ste,
+  Je --
+
+  _ _ %365
+  _ _
+  _
+  _ _ su
+  Chri -- ste,
+  Je -- _ _ _ %370
+  _ _
+  _ _ _ _
+  _ _
+  _ _ su
+  Chri -- %375
+  ste,
+  Je -- _
+  _ _ _ _
+  _ _
+  _ _ %380
+
+  su Chri --
+  ste. %383 finis
+}
+
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
 %
 %

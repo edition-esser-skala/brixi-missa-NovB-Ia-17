@@ -439,12 +439,12 @@ DomineTenore = {
     c[ e16 d] c8[ h a g]
     a[ d] c4 h
     c2 r4
-    d\p e f
+    d e f
     \tuplet 3/2 4 { e8([ d c)] } c4 r %240
     d( e) f
     \tuplet 3/2 4 { e8([ d c)] } c4 r
     d4 e f
-    e8[\f g16 f] e8[ d c h]
+    e8[ g16 f] e8[ d c h]
     c[ e16 d] c8[ h a g] %245
     a[ d] c4 h
     c2 r4
