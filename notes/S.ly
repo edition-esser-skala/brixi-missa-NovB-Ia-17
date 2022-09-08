@@ -670,7 +670,194 @@ QuoniamSopranoLyrics = \lyricmode {
   ste. %383 finis
 }
 
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+CumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #405
+    R2.*4 %408
+    \mvTr fis'2.\fE^\tutti
+    g %410
+    fis
+    e4( d) cis
+    d r r
+    r d( fis)
+    e8. e16 cis4 r %415
+    r e g
+    fis d r
+    r d fis
+    e4. fis16[ g] fis4
+    e4. fis16[ g] fis4 %420
+    e4. fis16[ g] fis4
+    fis e r
+    R2.*2
+    d4 cis8[ d e fis] %425
+    d[ h e d cis h]
+    cis4 d2~
+    d4 cis2
+    d4 r r
+    R2. %430
+    e4 cis8[ d e fis]
+    d[ h e d cis h]
+    cis4 r r
+    R2.
+    g'!4( fis e) %435
+    d r r
+    fis e d
+    cis ais8[ h cis d]
+    h[ gis cis h ais gis]
+    ais4 h2~ %440
+    h4 ais2
+    h4 r r
+    R2.
+    fis'4 d8[ e fis g]
+    e[ cis fis e d cis] %445
+    d4 ais h
+    cis h ais
+    h r r
+    R2.
+    fis'4( e dis) %450
+    e r r
+    R2.
+    r4 e2~
+    e4 dis2
+    e8 h[ e d c h] %455
+    \once \tieDashed c2.~
+    c8[ a d c h a]
+    h4 g'2~
+    g4 fis2~
+    fis4 e d %460
+    cis cis8[ d e fis]
+    d[ h e d cis h]
+    cis4 a'2~
+    a4 gis2
+    a4 a,\pE a %465
+    \tieDashed f'2.~
+    f~
+    f~
+    f4 e r \tieSolid
+    R2. %470
+    r4 d(\fE fis!)
+    e8. e16 cis4 r
+    r e g
+    fis d r
+    r d fis %475
+    e4. fis16[ g] fis4
+    e4. fis16[ g] fis4
+    e( d cis)
+    d r r
+    r d(\p fis) %480
+    e8. e16 cis4 r
+    r e g
+    fis d r
+    r d fis
+    e4. fis16[ g] fis4 %485
+    e4. fis16[ g] fis4
+    e( d cis)
+    d fis2\f
+    g2.
+    fis %490
+    e4 d cis
+    d fis2
+    g2.
+    fis
+    e4 d cis %495
+    d r e
+    fis r r\fermata \bar "|." %497 finis
+  }
+}
+
+CumSanctoSopranoLyrics = \lyricmode {
+  Cum %409
+  San -- %410
+  cto
+  Spi -- ri --
+  tu
+  in __
+  glo -- ri -- a %415
+  De -- i
+  Pa -- tris,
+  a -- men,
+  a -- _ _
+  _ _ _ %420
+  _ _ men,
+  a -- men,
+
+  a -- _ %425
+  _
+  _ _
+  _
+  men,
+  %430
+  a -- _
+  _
+  men,
+
+  a -- %435
+  men,
+  a -- _ _
+  _ _
+  _
+  _ _ %440
+  _
+  men,
+
+  a -- _
+  _ %445
+  _ _ _
+  _ _ _
+  men,
+
+  a -- %450
+  men,
+
+  a --
+  _
+  men, a -- %455
+  _
+
+  men, a --
+  _
+  _ _ %460
+  \xE men, a --
+  _
+  \x men, a --
+  _
+   men, a -- men, %465
+  a --
+
+  men, %469
+  %470
+  in __
+  glo -- ri -- a
+  De -- i
+  Pa -- tris,
+  a -- men, %475
+  a -- _ _
+  _ _ men,
+  a --
+  men,
+  in __ %480
+  glo -- ri -- a
+  De -- i
+  Pa -- tris,
+  a -- men,
+  a -- _ _ %485
+  _ _ men,
+  a --
+  men, a --
+  _
+  _ %490
+  _ _ _
+  men, a --
+  _
+  _
+  _ _ _ %495
+  men, a --
+  men. %497 finis
+}
+
+
 %
 %
 % ## Credo

@@ -87,3 +87,51 @@ GloriaClarinoI = {
     g2 r4\fermata \bar "||" %122 finis
   }
 }
+
+CumSanctoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCumSancto
+      \set Score.currentBarNumber = #405
+    e'2\fE g4
+    a2.
+    g
+    f4 e d
+    e2 g4
+    a2. %410
+    g
+    f4 e d
+    c r r
+    r c e
+    d r r %415
+    r d f
+    e r r
+    r e e
+    d4. e16 f e4
+    d4. e16 f e4 %420
+    d4. e16 f e4
+    e d r
+    R2.*47 %469
+    \mvTr e2\fE-\critnote r4 %470
+    r c e
+    d^\critnote r r
+    r d f
+    e^\critnote r r
+    r e e %475
+    d4. e16 f e4
+    d4. e16 f e4
+    r8 f e4 d
+    c^\critnote r r
+    R2.*8 %488
+    r4 g'2\fE
+    a2. %490
+    g^\critnote
+    f4 e d
+    c g'2
+    a2.
+    g
+    f4 e d
+    c e g
+    g r r\fermata \bar "|."
+  }
+}

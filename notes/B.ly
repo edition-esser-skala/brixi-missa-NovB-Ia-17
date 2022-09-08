@@ -596,3 +596,183 @@ QuiTollisBassoLyrics = \lyricmode {
   re -- re no --
   bis. %289 finis
 }
+
+CumSanctoBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #405
+    R2.*4 %408
+    \mvTr d2.\fE^\tutti
+    d' %410
+    d,
+    g4( a) a,
+    d r r
+    r fis( d)
+    a'8. a16 a,4 r %415
+    r cis' a
+    d d, r
+    r fis d
+    a' cis d
+    a cis d %420
+    a cis d
+    a a, r
+    R2.*4 %426
+    a'4 fis8[ g! a h]
+    g[ e a g fis e]
+    fis4 a2~
+    a4 gis2 %430
+    a4 a8[ h cis d]
+    h4 e, e'
+    a,4 r r
+    R2.
+    ais %435
+    h4 r r
+    d,( e eis)
+    fis r r
+    R2.
+    fis4 d8[ e! fis g] %440
+    e[ cis fis e d cis]
+    d4 h'2~
+    h4 ais2
+    h4 h8[ cis d e]
+    cis4 fis, ais %445
+    h fis g
+    e fis2
+    h,4 r r
+    R2.
+    h' %450
+    e,4^\critnote r r
+    R2.
+    r4 g8[ a h c]
+    a[ fis h a g fis]
+    g4 e g %455
+    a a, c
+    d fis d
+    g8[ fis g a h cis!]
+    d[ cis d d, fis d]
+    g[ fis] g4 gis %460
+    a2.~
+    a~
+    a~
+    a
+    a4 r r %465
+    r d\pE d
+    b2.
+    gis
+    a4 a, r
+    R2. %470
+    r4 fis'!(\fE d)
+    a'8. a16 a4 r
+    r cis a
+    d d, r
+    r fis d %475
+    a' cis d
+    a cis d
+    g, a a,
+    d r r
+    r fis(\p d) %480
+    a'8. a16 a4 r
+    r cis a
+    d d, r
+    r fis d
+    a' cis d %485
+    a cis d
+    g, a a,
+    d \tieDashed d'2~\f
+    d2.~
+    d %490
+    g,4 a2
+    d,4 d'2~
+    d2.~
+    d \tieSolid
+    g,4 a2 %495
+    d,4 r a'
+    d, r r\fermata \bar "|." %497 finis
+  }
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+  Cum %409
+  San -- %410
+  cto
+  Spi -- ri --
+  tu
+  in __
+  glo -- ri -- a %415
+  De -- i
+  Pa -- tris,
+  a -- men,
+  a -- _ _
+  _ _ _ %420
+  _ _ \xE men,
+  a -- \x men,
+
+  a -- _ %427
+  _
+  _ _
+  _ %430
+  men, a --
+  _ _ _
+  men,
+
+  a -- %435
+  men,
+  a --
+  men,
+
+  a -- _ %440
+  _
+  men, a --
+  _
+  men, a --
+  _ _ _ %445
+  _ _ _
+  _ _
+  men,
+
+  a -- %450
+  men,
+
+  a --
+  _
+  _ _ _ %455
+  men, a -- _
+  _ _ _
+  _
+  _
+  _ _ _ %460
+  _
+
+  men, %465
+  a -- men,
+  a --
+  _
+  _ men,
+  %470
+  in __
+  glo -- ri -- a
+  De -- i
+  Pa -- tris,
+  a -- men, %475
+  a -- _ _
+  _ _ _
+  _ _ _
+  men,
+  in __ %480
+  glo -- ri -- a
+  De -- i
+  Pa -- tris,
+  a -- men,
+  a -- _ _ %485
+  _ _ _
+  _ _ _
+  men, a --
+
+  _ _ %491
+  men, a --
+
+  _ _ %495
+  men, a --
+  men. %497 finis
+}

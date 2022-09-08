@@ -587,3 +587,104 @@ QuoniamViolinoII = {
     a8 a, r4\fermata \bar "||" %404 finis
   }
 }
+
+CumSanctoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoCumSancto
+      \set Score.currentBarNumber = #405
+    d'4\fE <fis a, d,> fis8.(\trillE e32 fis)
+    g4 <g h, d,> g8.(\trillE fis32 g)
+    fis4 <fis a, d,> d
+    e d cis
+    d <fis a, d,> fis8.(\trillE e32 fis)
+    g4 <g h, d,> g8.(\trillE fis32 g) %410
+    fis4 <fis a, d,> d
+    e d cis
+    d d,16 d d d fis fis fis fis
+    a a a a d d d d fis fis fis fis
+    e4 e,16 e e e a a a a %415
+    cis^\critnote cis cis cis e e e e g g g g
+    fis4^\critnote a,16 a a a d d d d
+    fis fis fis fis a a a a fis fis fis fis
+    e4 a, a8 fis'
+    e4 a, a8 fis' %420
+    e4 a, a8 fis'
+    d4 cis r
+    a fis8 g a h
+    g e a g fis e
+    fis4 \once \tieDashed a2~ %425
+    a4 gis2
+    a fis4
+    e2 a4
+    a a8 h cis4
+    h2. %430
+    \once \tieDashed a~
+    a4 gis2
+    a4 r r
+    a \tuplet 3/2 4 { cis8 h a } a a
+    e'4 d cis %435
+    h \tuplet 3/2 4 { fis8 e d } d8 d
+    d'4 cis h
+    ais \once \tieDashed fis2~
+    fis4 eis2
+    fis d4 %440
+    cis2 d8 e
+    d4 h'8^\critnote cis d4
+    cis2.
+    h4 \once \tieDashed h2~
+    h4 ais fis-\critnote %445
+    fis2 d4
+    g fis2
+    fis4-\critnote r r
+    h \tuplet 3/2 4 { dis8 cis h } h h
+    fis'4 e dis %450
+    e g,8 a h c
+    a fis h a g fis
+    g2.
+    fis2 g8 a
+    g4 g2~ %455
+    g8 e a g fis e
+    fis2.
+    g4 h2
+    a2.
+    h %460
+    a4 \once \tieDashed a2~
+    a4 gis2
+    a4 cis,8 d e fis
+    d h e d cis h
+    cis4 a'\p a %465
+    d d16( cis d e) d8 d
+    d4 d16( cis d e) d8 d
+    d4 d16( cis d e) d8 d
+    d4 cis r
+    d\f d,16 d d d fis fis fis fis %470
+    a a a a d d d d d^\critnote d d d
+    cis4 e,16 e e e a a a a
+    cis cis cis cis e e e e e e e e
+    d4 a16 a a a d d d d
+    fis fis fis fis a a a a fis fis fis fis %475
+    e4^\critnote a, a8 fis'
+    e4 a, a8 fis'
+    \appoggiatura a16 g8^\critnote fis16 e d4 cis\trillE
+    d d,16\p d d d fis fis fis fis
+    a a a a d d d d d d d d %480
+    cis4 e,16 e e e a a a a
+    cis cis cis cis e e e e e e e e
+    d4 a16 a a a d d d d
+    fis fis fis fis a a a a fis fis fis fis
+    e4 a, a8 fis' %485
+    e4 a, a8 fis'
+    \appoggiatura a16 g8^\critnote fis16 e d4 cis
+    d <fis a, d,>\f fis8.(\trillE e32 fis)
+    g4 <g h, d,> g8.(\trill fis32 g)
+    fis4 <fis a, d,> d %490
+    e d cis
+    d <fis a, d,> fis8.(\trill e32 fis)
+    g4 <g h, d,> g8.(\trillE fis32 g)
+    fis4 <fis a, d,> d
+    e d cis %495
+    d <fis a, d,> <e a,>
+    <fis a, d,> r r\fermata \bar "|." %497 finis
+  }
+}
