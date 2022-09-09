@@ -688,3 +688,237 @@ CumSanctoViolinoII = {
     <fis a, d,> r r\fermata \bar "|." %497 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoCredo
+    fis'4\fE d d
+    d fis r
+    fis d d
+    e d r
+    R2.*2 %6
+    d4 fis d
+    cis cis16 h cis d cis8. a16
+    h4 a8.[ e'16 cis8.a16]
+    h4 a8.[ e'16 cis8. a16] %10
+    h4 a gis
+    a r r
+    r-\critnote cis8( d) d( e)
+    fis4 cis r
+    r \slurDashed cis8( d) d( e) \slurSolid %15
+    fis4 cis8( d) d( e)
+    a,4 g fis
+    e' \appoggiatura d cis2^\critnote
+    d8 fis fis( d) d( a)
+    h8 g' g16( fis e d) e( d cis h) %20
+    cis8^\critnote a' a fis fis cis
+    d h' a16 g fis e a g fis e
+    fis8 d, fis a d fis
+    a4 d16 cis h a d cis h a
+    \appoggiatura cis h8^\critnote a16 g fis4 e %25
+    d r r
+    R2.
+    fis,2\fE a4
+    cis d e
+    d r r %30
+    R2.*4
+    cis,2\fE e4 %35
+    gis a h
+    a r r
+    R2.
+    r4 r \once \tieDashed cis~\pE
+    cis h ais %40
+    h4. cis8 \once \tieDashed d4~
+    d cis h
+    ais8-\critnote ais ais ais ais ais
+    fis fis fis fis fis fis
+    g g g g g g %45
+    e e e e e e
+    fis fis fis fis fis fis
+    g4 r r
+    R2.*4 %52
+    a4\fE a a
+    h a a
+    gis8. a16 h8 gis fis eis %55
+    fis4 cis cis'
+    h16 cis h cis d8 h a gis
+    a4 r r
+    R2.
+    cis4. a8 a4 %60
+    a a gis
+    a4 r a16 h a h
+    cis4 cis cis8.(\trillE_\critnote h32 cis)
+    d4 d d8.(\trillE cis32 d)
+    e4 e e8.(\trillE_\critnote d32 e) %65
+    d4 cis r
+    g2 g4
+    fis4. e8 d4
+    e'2 e4
+    d4. cis8 h4 %70
+    cis h ais
+    d h h
+    h d d
+    \appoggiatura fis16 e8^\critnote d16 cis h4 ais
+    h8. cis16 d4 d %75
+    \appoggiatura fis16 e8^\critnote d16 cis h4 ais
+    h r r
+    fis' d d^\critnote
+    d fis r
+    fis d d %80
+    e d r
+    R2.*2
+    d4 fis d
+    cis cis16 h cis d cis8. a16 %85
+    h4 a8.[ e'16 cis8. a16]
+    h4 a8.[ e'16 cis8. a16]
+    h4 a gis
+    a r r
+    r cis8( d) d( e) %90
+    fis4^\critnote cis r
+    r cis8( d) d( e)
+    fis4 cis8( d) d( e)
+    a,4 g fis
+    e' \appoggiatura d cis2 %95
+    d8 fis fis d d a
+    h8 g' g16 fis e d e d cis h
+    cis8 a' a fis fis cis
+    d h' a16 g fis e a g fis e
+    fis8 d, fis a d fis %100
+    a4 d16 cis h a g fis e d
+    \appoggiatura cis' h8^\critnote a16 g fis4 e \noBreak
+    d4 r r\fermata \bar "||"
+    \tempoEtIncarnatus fis,4 fis fis \noBreak
+    r8 e e e d d %105
+    cis cis' cis-\critnote ais ais4
+    h8 d d d d d
+    r dis dis dis dis dis
+    e4 e e
+    r8 e e e e e %110
+    e e e e e e
+    cis a e'^\critnote e e e
+    e e d d d d
+    d d cis cis a a
+    gis-\critnote gis gis gis gis gis %115
+    a fis' a( fis) cis( fis)
+    d( fis) cis( d) gis,( h)
+    \slurDashed eis,( gis) h,( d) cis( h) \slurSolid
+    a fis' gis, fis' gis, eis'
+    fis4 r r %120
+    r8 eis\pE eis fis fis gis
+    gis4 r r
+    R2.*2
+    r8 e e gis gis4 %125
+    gis^\critnote e d
+    cis2.
+    d4 r r
+    R2.*2 %130
+    r4 r8 fis g d
+    d d d d d d
+    cis cis cis cis cis cis \noBreak
+    h2 r4\fermata \bar "||"
+    \tempoEtResurrexit fis'4\fE^\critnote fis r \noBreak %135
+    d'8[ d, d d'] d d16 e
+    fis8[ d, d fis'] fis fis16 e
+    fis4 fis fis
+    g4. g8 g4
+    g fis e^\critnote %140
+    fis8 fis e e d d
+    cis4 cis r
+    cis, cis r
+    a'8[ a,-\critnote a a'] a a16 h
+    cis8[ a, a cis'] cis cis16 h %145
+    cis4 cis r
+    cis8 cis cis cis cis cis
+    cis cis cis cis h^\critnote h
+    h h h h ais ais
+    r h d h fis' d %150
+    d4 d d
+    d8.(\trillE cis32 d) e8 cis h ais
+    h e, d cis h ais
+    h4 r r
+    R2.*5 %159
+    r8 a'\fE cis a e' cis %160
+    cis4 cis, r
+    r8 a' cis a cis cis
+    d4 r r
+    r8 d fis d a' fis
+    fis4 fis, r %165
+    r8 d' fis d a' fis
+    fis4 fis fis
+    g2 g4
+    g fis r
+    r8 a,\p a a a a %170
+    r g g g g g
+    fis dis'\fE dis dis dis dis
+    e e e e cis cis
+    d8.[ d16 d8. d16 d8. d16]
+    d8.[ d16 d8. d16 d8. d16] %175
+    d8.[^\critnote d16 cis8. cis16 cis8. cis16]
+    d8 d d16( cis h a) d( cis h a)
+    h8 e e16( d cis h) e( d cis h)
+    cis8 a' a16( g fis e) a( g fis e)
+    fis8 d, fis a d a %180
+    h a16 g fis8 d' e,-\critnote cis'
+    d4 r r
+    R2.*2
+    a8[\pE a, a a'] a a16 gis %185
+    a4 r r
+    R2.*2
+    a8[ a, a a'] a a16 gis
+    a4 r r %190
+    R2.*5 %195
+    h,4\fE h r
+    g'8[ g, g g'] g g16 a
+    h8[ g, g h'] h h16 a
+    h4 r r
+    R2.*6 %205
+    e,8.[\p e16 e8. e16 e8. e16]
+    e8.[ e16 e8. e16 e8. e16]
+    fis8.[-\critnote fis16 fis8. fis16 fis8. fis16]
+    fis8.[ fis16 fis8. fis16 fis8. fis16]
+    g4 r r %210
+    R2.
+    g4\f g r
+    e'8[ e, e e'] e e16 fis
+    g4 a, h
+    r8 a g fis e dis %215
+    e4 r r
+    R2.*10 %226
+    a8[\pE a, a a'] a a16 gis
+    a4 r r
+    R2.*3 %231
+    cis,4\fE cis r
+    a'8[ a, a a'] a a16 h
+    cis8[ a, a cis'] cis cis16 h
+    cis4 r r %235
+    r8-\critnote a cis a e' cis
+    cis4 cis, r
+    r8 a' cis a a'16 g! fis e
+    <fis a, d,>4 r r
+    r8 d fis d a' fis %240
+    d'4 d, r
+    r8 d fis d a' fis
+    fis4 fis fis
+    g2 g4
+    g fis r %245
+    r8 a,\p a a a a
+    r g g g g g
+    fis4 h, dis'\fE
+    e4 e cis
+    d! d d %250
+    d8.[ d16 d8. d16 d8. d16]
+    cis8 cis cis cis cis16 h cis h
+    cis4 r r
+    r \slurDashed cis8( d) d( e)
+    fis4 cis r %255
+    r cis8( d) d( e)
+    fis4 cis8( d) d( e) \slurSolid
+    a,4 g fis
+    e' \appoggiatura d cis2^\critnote
+    d8[ d, d d'] d d16 cis %260
+    d8[ d, d d'] d d16 cis
+    fis8[ d, d fis'] fis fis16 e^\critnote
+    <fis a, d,>4 q r\fermata \bar "|." %263 finis
+  }
+}

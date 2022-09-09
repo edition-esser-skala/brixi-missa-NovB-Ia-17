@@ -135,3 +135,135 @@ CumSanctoClarinoI = {
     g r r\fermata \bar "|."
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    e'2\fE r4
+    a g r
+    e2 r4
+    d e r
+    \pa c c c %5
+    d2 d4
+    e2. \pd
+    d4 r r
+    R2.*2 %10
+    r4 \pa d d \pd
+    d g g
+    e d r
+    r g g
+    e d r %15
+    r g f
+    e d c
+    f \appoggiatura e d2
+    c4 r r
+    R2.*2 %21
+    r4 d d
+    e r r
+    g r r
+    r8 f e4 d %25
+    c r r
+    R2.
+    c2\fE c4
+    d e f
+    e r r %30
+    R2.*32 %62
+    d2\fE d4^\critnote
+    e2 e4
+    f2 f4 %65
+    e d r
+    R2.*4 %70
+    r4 \pa e, e
+    e \pd r r
+    R2.*5 %77
+    e'2 r4
+    a g r
+    e2 r4 %80
+    d e r
+    c c c
+    d d d
+    e2.
+    d4 r r %85
+    R2.*2
+    r4 \pa d d \pd
+    d g2
+    e4 d r %90
+    r g2
+    e4 d r
+    r g2
+    e4 d c
+    f \appoggiatura e d2^\critnote %95
+    c4 r r
+    R2.*2
+    r4 r d
+    e r r %100
+    g^\critnote r r
+    r8 f e4 d
+    c^\critnote r r\fermata \bar "||"
+    \tempoEtIncarnatus R2.*30 \noBreak %133
+    R2.\fermata \bar "||"
+    \tempoEtResurrexit c2.\fE \noBreak %135
+    e
+    g
+    e4 e r
+    R2.
+    r4 r g %140
+    g g fis
+    g g r
+    \pao g,2 r4
+    \pao g2 r4
+    d'2 r4 %145
+    g g r
+    d2 r4
+    R2.
+    r4 \pa e, e
+    e \pd r r %150
+    R2.*8 %158
+    d'2\fE d4
+    d2. %160
+    d4^\critnote d d
+    d2.
+    e4 e e
+    e2.
+    e4 e e %165
+    e2.
+    e4 r r
+    r r \pa c
+    c c \pd r
+    R2.*3 %172
+    r4 r d\fE
+    e e e
+    d2 d4 %175
+    d2 g4
+    e r r
+    R2.*57 %234
+    d2\fE d4 %235
+    d2.
+    d4 d d
+    d2.
+    e4 g g
+    g2. %240
+    g4 g g
+    g2.
+    g4 r r
+    r r \pa c,
+    c c \pd r %245
+    R2.*3
+    r4 r d\fE
+    e e e %250
+    d2 d4
+    d4. d8 d4
+    r g g
+    e d r
+    r g g %255
+    e d r
+    r g f
+    e d c
+    f \appoggiatura e d2^\critnote
+    c4 r r %260
+    e e r
+    g g r
+    e e r\fermata \bar "|." %263 finis
+  }
+}
