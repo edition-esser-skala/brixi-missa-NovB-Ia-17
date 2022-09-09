@@ -922,3 +922,191 @@ CredoViolinoII = {
     <fis a, d,>4 q r\fermata \bar "|." %263 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    d'8\fE fis, r d' d e, r g'16.(\trillE fis64 g)
+    fis8 d r d d e, r g'16.(\trillE fis64 g)
+    fis8 a fis d h gis cis cis
+    h h h h cis e, r cis'
+    cis a r cis d a r d %5
+    e cis r e d fis, r d' \noBreak
+    e cis e,16( d) d( cis) cis2\fermata \bar "||"
+    fis'4 fis8 fis fis( e) e-! a, \noBreak
+    e'^\critnote cis d e e( d) d-! r
+    fis,4\p fis8 fis fis( e) e-! a, %10
+    e' cis d e e( d) d-! r
+    r fis\f h4. g8 cis4~
+    cis8 a d4 h2^\critnote
+    a8 h-\critnote a gis a cis d h
+    cis4 r r8 cis d e %15
+    fis4 r r8 cis d e
+    fis cis d e d4. cis8
+    d4 d d8 d d d
+    d d d d d d d d
+    cis fis fis16( e) e( d) d( cis) cis( h) h( a) a( g) %20
+    fis d' fis, d' e, d'-\critnote e, cis' <d fis,>4 r\fermata \bar "|." %21 finis
+  }
+}
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBenedictus
+    cis'4.\fE a16. h32
+    cis8 cis4 d8
+    d cis r cis16. a32
+    gis8 gis4 a16 h
+    h8 a r cis16. a32 %5
+    gis8 gis4 a16 h
+    h8 a r a'
+    fis16[ a,] a' gis32 a e16[ a,] a' gis32 a
+    fis16[ a,] a' gis32 a e16. a,32 a'16. e32
+    d8 e,32 gis h d cis8 a %10
+    d8 e,32 gis h d cis8 a
+    \tuplet 3/2 8 { fis16 gis a h[ cis d] cis d e d[ cis h] }
+    a8 a a8.( h32 a)
+    a8 cis \tuplet 3/2 8 { cis16[ a cis] h gis h }
+    a8 a a8.( h32 a) %15
+    a8 cis \tuplet 3/2 8 { e,16[ cis e] d h d }
+    cis4 r
+    cis'4.\p a16. h32
+    cis8 cis4 d8
+    d cis r cis16. a32 %20
+    gis8 gis4 a16 h
+    h8 a r cis16. a32
+    gis8 gis4 a16 h
+    h8 a r4
+    r8 cis h a %25
+    gis gis r e
+    e e'4 dis8
+    e4 r
+    R2*2 %30
+    gis,8 a16 gis fis8. e16
+    \appoggiatura e8 dis4^\critnote r8 fis
+    \tuplet 3/2 8 { gis16 a gis } e8 \tuplet 3/2 8 { a16 h a } fis8
+    \tuplet 3/2 8 { h16 cis h } gis8 \tuplet 3/2 8 { cis16 dis e dis[ e fis] }
+    e8 gis, \tuplet 3/2 8 { a16 h a } fis8 %35
+    \tuplet 3/2 8 { h16 cis h } gis8 \tuplet 3/2 8 { cis16 dis e dis[ e fis] }
+    e8 \tuplet 3/2 8 { e16 fis e } cis8 h
+    a \tuplet 3/2 8 { cis16 dis? cis } a8-\critnote gis
+    \tuplet 3/2 8 { a16 gis fis cis'[ h a] } gis8 fis
+    e \once \slurDashed e'16(\f h) cis( e,) e'( cis) %40
+    h( e,) e'( h) cis( e,) e'( cis)
+    \tuplet 3/2 8 { h[ cis dis] e fis gis cis,[ dis e] fis gis a }
+    gis16. h32 e,16. gis32 fis16. a32 dis,16. fis32
+    e8 e, r4
+    gis4.\p e16. fis32 %45
+    gis8 gis4 a8
+    a gis r gis16. e32
+    dis8 dis4 e16 fis
+    fis8 e r gis16. e32
+    dis8 dis4 e16 fis %50
+    fis8 e r cis'
+    cis4. h8
+    ais4. ais8
+    h cis h ais
+    h16 cis d8 r h %55
+    h4. a!8
+    gis4. gis8
+    a h a gis
+    a8. h16 cis8 e,
+    a, d h e %60
+    cis fis e-\critnote gis
+    a4 r8 cis16 a
+    \appoggiatura a8 gis4-\critnote r8 gis
+    gis8.( a32 h) a8 gis
+    a gis r gis %65
+    gis8.( a32 h) a8 gis
+    a gis r h
+    \tuplet 3/2 8 { cis16 d cis } a8 \tuplet 3/2 8 { d16 e d } h8
+    \tuplet 3/2 8 { e16 fis e } cis8 \tuplet 3/2 8 { fis16[ gis a] gis a h }
+    a8 cis, \tuplet 3/2 8 { d16 e d } h8 %70
+    \tuplet 3/2 8 { e16 fis e } cis8 \tuplet 3/2 8 { fis16[ gis a] gis a h }
+    a8 e a, h
+    cis16( fis) fis( e) e( d) d( cis)
+    \tuplet 3/2 8 { cis[ h cis] d cis h } a8 gis
+    a a'16 e fis a, a' fis %75
+    e8 a, \appoggiatura cis16 h8^\critnote a16 gis
+    a8 a'16 e fis a, a' fis
+    e8 a, \appoggiatura cis16 h8^\critnote a16 gis
+    \tuplet 3/2 8 { cis d cis } a8 \tuplet 3/2 8 { d16 e d } h8
+    \tuplet 3/2 8 { e16 fis e } cis8 \tuplet 3/2 8 { fis16[ gis a] gis a h } %80
+    cis,16 cis8\f cis cis cis16~
+    cis cis8 cis cis cis16
+    cis4\fermata r
+    cis4. a16 h
+    cis8 cis4 d8 %85
+    d cis r cis16. a32
+    gis8 gis4 a16 h
+    h8 a r cis16. a32
+    gis8 gis4 a16 h
+    h8 a r a' %90
+    fis16[ a,] a' gis32 a e16[ a,] a' gis32 a
+    fis16[ a,] a'16 gis32 a e16. a,32 a'16. e32
+    d8 e,32 gis h d cis8 a
+    d e,32 gis h d cis8 a
+    \tuplet 3/2 8 { fis16[ gis a] h cis d cis[ d e] d cis h } %95
+    a8 a a8.( h32 a)
+    a8 cis \tuplet 3/2 8 { cis16 a cis h[ gis h] }
+    a8 a a8.( h32 a)
+    a8 cis \tuplet 3/2 8 { e,16[ cis e] d h d }
+    cis4 r\fermata \bar "||" %100 finis
+  }
+}
+
+OsannaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #101
+    a'2\fE h4 fis
+    g gis a8 e a g
+    fis e d4 r a'
+    h8 fis h a gis4. \once \tieDashed h8~
+    h e, a g fis4 a %105
+    h h e,2
+    a8 g fis4 r2
+    R1
+    r2 a
+    h4 fis g gis %110
+    a8 e a g fis4 h
+    gis a2 ais4
+    h8 fis h a gis2
+    a4. g8 fis2
+    g2. fis8 e %115
+    d e fis4 g gis
+    cis,2 d4 fis
+    fis e fis2
+    gis1^\critnote
+    fis4 h r2 %120
+    R1
+    r2 fis
+    g!4 dis e eis
+    fis8 cis fis e dis2
+    e4 e dis dis %125
+    e1
+    dis2 e
+    r8 e a g! fis2
+    g4 r a2
+    h4 fis g gis %130
+    a8 e a g f4 h
+    gis a2 ais4
+    h8 fis h a gis2
+    a4 fis gis a~
+    a ais h8 fis h a? %135
+    gis4. \once \tieDashed h8~ h e, a gis
+    fis4 a g h
+    a cis h8 r r4
+    r8 g a h a4 a
+    a2 h4 fis %140
+    g gis \once \tieDashed a2~
+    a8 fis h a gis2
+    a8 a a a h h h h
+    cis cis d d d d cis cis
+    d a a a h h c c %145
+    h2 a\fermata \bar "|." %146 finis
+  }
+}

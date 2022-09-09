@@ -252,3 +252,42 @@ CredoTimpani = {
     c8 c16 c c4 r\fermata \bar "|." %263 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    c2\fE r4 g
+    c2 r4 g
+    c2 r4 g
+    r2 g4 g
+    g g c c %5
+    g g c4. c8 \noBreak
+    g4 r r2\fermata \bar "||"
+    \tempoPleni c4 c8 c g g g4 \noBreak
+    r8 g g g c c c r
+    R1*5 %14
+    r8 g\fE c g c g r4 %15
+    r8 g c g c g r4
+    r8 g c g c4 g8 g16 g
+    c4 c8 c c c16 c c8 c
+    c c16 c c8 c c c16 c c8 c
+    g r r4 r2 %20
+    c8 c16 c g8 g16 g c4 r\fermata \bar "|." %21 finis
+  }
+}
+
+OsannaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #101
+    R1*38 %138
+    r2 g8\fE g16 g c8 c
+    g4 r r2 %140
+    R1*3
+    r4 c g8 g16 g g8 g
+    c4 c8 c c4 c8 c %145
+    c1\trill\fermata \bar "|." %146 finis
+  }
+}

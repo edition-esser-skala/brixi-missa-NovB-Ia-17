@@ -267,3 +267,42 @@ CredoClarinoII = {
     c c r\fermata \bar "|." %263 finis
   }
 }
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    e2\fE r4 g
+    c2 r4 g
+    c c d2
+    d d4_\critnote g,
+    g g c c %5
+    d d c4. c8 \noBreak
+    g4 r r2\fermata \bar "||"
+    \tempoPleni e'4 c8 c c g g4 \noBreak
+    r8 d' d d d c c r
+    R1*5 %14
+    r8 d\fE c d c g r4 %15
+    r8 d' c d c g r4
+    r8 d' c d c4 g8 g16 g
+    e4 c' c2
+    c c
+    d8 r r4 r2 %20
+    c8 c,16 e g8 g16 g e4 r\fermata \bar "|." %21 finis
+  }
+}
+
+OsannaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #101
+    R1*38 %138
+    \once \tieDashed d'2~\fE d4 c
+    g r r2 %140
+    R1*3
+    r4 c g g8 g
+    c4 c, c c %145
+    c2 c\fermata \bar "|." %146 finis
+  }
+}

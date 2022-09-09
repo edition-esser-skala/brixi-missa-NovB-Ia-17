@@ -1062,3 +1062,133 @@ CredoTenoreLyrics = \lyricmode {
   a -- men,
   a -- men. %263 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr fis2\fE^\tutti e
+    d2. cis4
+    d d h4( cis
+    h2) cis4 cis~
+    cis cis8 cis d4 d %5
+    e e d4. d8 \noBreak
+    cis4 r r2\fermata \bar "||"
+    \tempoPleni d4 d8 d d([ cis)] cis r \noBreak
+    r cis d e e([ d)] d r
+    d4\p a8 a a4^\critnote a8 r %10
+    r a a a a4 a
+    r8 fis\f h4. g8 cis4~
+    cis8[ a] d4 h2
+    e8 fis16 fis e8([ d)] cis^\critnote r r4
+    r8 e e e d cis r4 %15
+    r8 e e e d cis r4
+    r8 e4.( d8) d16 d d8([ cis)]
+    d4 fis fis fis
+    d d d2
+    e8 r r4 r2 %20
+    a,8 a a4 a r\fermata \bar "|." %21 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus, san --
+  ctus Do --
+  mi -- nus De -- us, %5
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li,
+  coe -- li et ter -- ra,
+  ple -- ni sunt coe -- li, %10
+  coe -- li et ter -- ra
+  glo -- _ _ _
+  _ _
+  _ ri -- a tu -- a,
+  ple -- ni sunt coe -- li, %15
+  coe -- li et ter -- ra
+  glo -- ri -- a tu --
+  a. O -- san -- na
+  in ex -- cel --
+  sis, %20
+  in ex -- cel -- sis. %21 finis
+}
+
+OsannaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #101
+    R1*6 %106
+    \mvTr d2\fE^\tutti fis4 cis
+    d dis e8[ h e d]
+    cis2 d4 fis
+    h, r r2 %110
+    R1*3
+    r4 cis( d) h
+    e, e'4. e8 d([ cis)] %115
+    h4 r r2
+    R1
+    h2 d4 a
+    h his cis8[ gis cis h]
+    ais4 d e \once \tieDashed fis~ %120
+    fis e fis2
+    eis cis4 r
+    R1*4 %126
+    r8 fis,([^\critnote h)] a gis2
+    a4 r r2
+    R1*3 %131
+    e'2 fis!4 cis
+    d dis e8[ h e d]
+    cis4 d2 cis4
+    d fis h,2 %135
+    e1
+    d4 a h2
+    cis d!8 h([ cis)] d
+    e2( cis4 d)
+    cis cis d( dis) %140
+    e r r2
+    R1
+    r4 cis( d) e
+    a,1
+    a4 d2 d4 %145
+    d2 d\fermata \bar "|." %146 finis
+  }
+}
+
+OsannaTenoreLyrics = \lyricmode {
+  O -- san -- na %107
+  in ex -- cel --
+  _ _ _
+  sis, %110
+
+  in __ ex -- %114
+  cel -- sis, o -- san -- %115
+  na,
+
+  o -- san -- na
+  in ex -- cel --
+  _ _ _ _ %120
+  _ _
+  _ sis,
+
+  in __ ex -- cel -- %127
+  sis,
+
+  o -- san -- na %132
+  in ex -- cel --
+  _ _ _
+  _ _ _ %135
+  _
+  _ _ _
+  _ sis, in __ ex --
+  cel --
+  sis, o -- san -- %140
+  na
+
+  in __ ex --
+  cel --
+  sis, in ex -- %145
+  cel -- sis. %146 finis
+}

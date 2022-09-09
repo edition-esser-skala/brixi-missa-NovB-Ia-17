@@ -1129,3 +1129,158 @@ CredoAltoLyrics = \lyricmode {
   a -- men,
   a -- men. %263 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr a'4(\fE^\tutti h2) a4
+    a( h2) a4
+    fis( a gis) a
+    a( gis) a2
+    a4 a8 a a4 a %5
+    a a a4. a8 \noBreak
+    a4 r r2\fermata \bar "||"
+    \tempoPleni a4 a8 a a4 a8 r \noBreak
+    r a a a a4 a8 r
+    fis4\pE fis8 fis fis([ e)] e r %10
+    r cis d e e([ d)] d4
+    r d\fE g e
+    a fis h2
+    a8 h16 h a8([ gis)] a^\critnote r r4
+    r8 a a a a a r4 %15
+    r8 a a a a a r4
+    r8 a4 a16 a a8^\critnote h16 h a4
+    fis a a a
+    g g gis2
+    a8^\critnote r r4 r2 %20
+    fis8 fis e4 fis r\fermata \bar "|." %21 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us, %5
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li,
+  coe -- li et ter -- ra,
+  ple -- ni sunt coe -- li, %10
+  coe -- li et ter -- ra
+  glo -- _ _
+  _ _ _
+  _ ri -- a tu -- a,
+  ple -- ni sunt coe -- li, %15
+  coe -- li et ter -- ra
+  glo -- ri -- a, glo -- ri -- a tu --
+  a. O -- san -- na
+  in ex -- cel --
+  sis, %20
+  in ex -- cel -- sis. %21 finis
+}
+
+OsannaAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #101
+    \mvTr a'2\fE^\tutti h4 fis
+    g gis a8[( e a g]
+    fis[ e]) d4 r a'
+    h8[ fis h a] gis4. \once \tieDashed h8~
+    h[ e, a g] fis4 a %105
+    h h e,2(
+    a8[ g]) fis4 r2
+    R1
+    r2 a
+    h4 fis g gis %110
+    a8[ e a g] fis4 h
+    gis a2 ais4
+    h8[ fis h a] gis2
+    a4. g8 fis2
+    g2. fis8[ e] %115
+    d[ e] fis4 g gis
+    cis,2 d4 fis
+    fis e fis2
+    gis1^\critnote
+    fis4 h r2 %120
+    R1
+    r2 fis
+    g!4 dis e eis
+    fis8[( cis fis e] dis2)
+    e4 e( dis) dis %125
+    e1
+    dis2 e
+    r8 e([ a)] g! fis2
+    g4 r a2
+    h4 fis g gis %130
+    a8[ e a g] f4 h
+    gis a2 ais4
+    h8[ fis h a] gis2
+    a4 fis( gis) a
+    a ais h8[ fis h a?] %135
+    gis4. \once \tieDashed h8~ h[ e, a gis]
+    fis4 a g h
+    a cis h8 r r4
+    r8 g([ a)] h a4 a
+    a2 h4 fis %140
+    g gis \once \tieDashed a2~
+    a8[ fis h a] gis2
+    a4 a2 g4
+    g( fis e2)
+    fis4 fis(^\critnote g) a %145
+    a( g) fis2\fermata \bar "|." %146 finis
+  }
+}
+
+OsannaAltoLyrics = \lyricmode {
+  O -- san -- na %101
+  in ex -- cel --
+  sis, o --
+  san -- _ _
+  _ na %105
+  in ex -- cel --
+  sis,
+
+  o --
+  san -- na in ex -- %110
+  cel -- _ _
+  _ _ _
+  _ _
+  _ _ _
+  _ _ %115
+  _ _ _ _
+  sis, in ex --
+  cel -- _ _
+  _
+  _ sis, %120
+
+  o --
+  san -- na in ex --
+  cel --
+  sis, in __ ex -- %125
+  cel --
+  _ sis,
+  in __ ex -- cel --
+  sis, o --
+  san -- na in ex -- %130
+  cel -- _ _
+  _ _ _
+  _ _
+  sis, in __ ex --
+  cel -- _ _ %135
+  _ _
+  _ _ _ _
+  _ _ sis,
+  in __ ex -- cel -- sis,
+  o -- san -- na %140
+  in ex -- cel --
+  _
+  sis, in ex --
+  cel --
+  sis, in __ ex -- %145
+  cel -- sis. %146 finis
+}

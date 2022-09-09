@@ -1149,3 +1149,148 @@ CredoBassoLyrics = \lyricmode {
   a -- men,
   a -- men. %263 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr d4(\fE^\tutti h' g) a
+    d,( h' g) a
+    d,2. cis4
+    e2 a,4 a'(
+    g!) g8 g fis4 fis %5
+    cis cis d4. d8 \noBreak
+    a4 r r2\fermata \bar "||"
+    \tempoPleni d4 fis8 d a'4 a8 r
+    r a h cis d4 d,8 r
+    d4\p fis8 d a'4 a,8 r %10
+    r a h cis d4 d
+    r8 d\f g4. e8 a4~
+    a8[ fis] h4 gis2
+    a8 d,16 d e4 a,8^\critnote r r4
+    r8 a' h cis d a r4 %15
+    r8 a h cis d a r4
+    r8 a([ h cis] d) g,16 g a4
+    d, d' c c
+    h h h2
+    a8 r r4 r2 %20
+    d,8 fis a([ a,)] d4 r\fermata \bar "|." %21 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus Do --
+  mi -- nus De -- us, %5
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li,
+  coe -- li et ter -- ra,
+  ple -- ni sunt coe -- li, %10
+  coe -- li et ter -- ra
+  glo -- _ _ _
+  _ _
+  _ ri -- a tu -- a,
+  ple -- ni sunt coe -- li, %15
+  coe -- li et ter -- ra
+  glo -- ri -- a tu --
+  a. O -- san -- na
+  in ex -- cel --
+  sis, %20
+  in ex -- cel -- sis. %21 finis
+}
+
+OsannaBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #101
+    R1*4 %104
+    \mvTr a'2\fE^\tutti h4 fis %105
+    g gis a8[( e a g]
+    fis[ e]) d4 r a'
+    h8[( fis h a] gis2)
+    a4 g2 fis4
+    g h e,2 %110
+    a d,4 d~
+    d cis d fis
+    h,2 e
+    a,4 r r2
+    r fis' %115
+    g4 dis e eis
+    fis8[ cis fis e] d[ cis d h]
+    g'2 fis~
+    fis eis
+    fis4 h,2 ais4 %120
+    h cis d2
+    cis fis4 dis(
+    e) fis g2
+    fis h,
+    e4 r h2 %125
+    c4 g a ais
+    h2( e)
+    a,! r8 d([ d']) c?
+    h[( a] g2) fis4
+    g h e,2( %130
+    a) d,4 d~
+    d cis d fis
+    h,2 e
+    a,4 r r2
+    R1 %135
+    r2 a'
+    h4 fis g! gis
+    a( ais) h8 r r4
+    r8 e,([ fis)] g a4 d,
+    a'1~ %140
+    a~
+    a~
+    a~
+    a
+    d,4 d'( h) fis %145
+    g2 d\fermata \bar "|." %146 finis
+  }
+}
+
+OsannaBassoLyrics = \lyricmode {
+  O -- san -- na %105
+  in ex -- cel --
+  sis, o --
+  san --
+  na in ex --
+  cel -- _ _ %110
+  _ sis, in __
+  ex -- cel -- _
+  _ _
+  sis,
+  o -- %115
+  san -- na in ex --
+  cel -- _
+  _ _
+  _
+  sis, in ex -- %120
+  cel -- _ _
+  _ sis, in __
+  ex -- cel --
+  _ _
+  sis, o -- %125
+  san -- na in ex --
+  cel --
+  sis, in __ ex --
+  cel -- sis,
+  in ex -- cel -- %130
+  sis, in __
+  ex -- cel -- _
+  _ _
+  sis,
+  %135
+  o --
+  san -- na in ex --
+  cel -- sis,
+  in __ ex -- cel -- _
+  _ %140
+
+  sis, in __ ex -- %145
+  cel -- sis. %146 finis
+}
