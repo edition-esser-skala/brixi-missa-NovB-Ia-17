@@ -4,80 +4,80 @@ GloriaTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoGloria
-    c4\fE c c
-    c c c
-    c c c
+    c8\fE c16 c c8 c c c
+    c8 c16 c c8 c c c
+    c8 c16 c c8 c c c
     r4 g g
-    c c c %5
-    c c c
-    c c c
-    r g g
+    c8 c16 c c8 c c c %5
+    c8 c16 c c8 c c c
+    c8 c16 c c8 c c c
+    r4 g g
     c r r
     r c c %10
     g r r
     r g g
     c r r
     r c c
-    g2 c4 %15
-    g2 c4
-    g2 c4
+    g g8 g16 g c4 %15
+    g g8 g16 g c4
+    g g8 g16 g c4
     g g r
-    g g g
+    g8 g16 g g8 g g g
     R2. %20
-    g4 g g
+    g8 g16 g g8 g g g
     R2.*5 %26
     g2 r4
     R2.
-    g4 g g
-    c c c-\critnote %30
-    g2 r4
+    g8 g16 g g8 g g g
+    g8 g16 g g8 g g g %30
+    g8 g16 g g8 g g g
     R2.
-    g4 g g
-    c c c
-    g2 r4 %35
+    g8 g16 g g8 g g g
+    g8 g16 g g8 g g g
+    g8 g16 g g8 g g g %35
     R2.
     g4 r r
     R2.*31 %68
-    c4\fE c c
-    c c c %70
-    c c c
-    r g g
-    c c c
-    c c c
-    c c c %75
-    r g g
+    c8\fE c16 c c8 c c c
+    c c16 c c8 c c c %70
+    c c16 c c8 c c c
+    r4 g g
+    c8 c16 c c8 c c c
+    c c16 c c8 c c c
+    c c16 c c8 c c c %75
+    r4 g g
     c r r
     r c c
-    c r r
-    c c c %80
-    c r r
-    c c c
-    c r r
+    c4 c8 c c c
+    c8 c16 c c8 c c c %80
+    c4 c8 c c c
+    c c16 c c8 c c c
+    c4 r r
     R2.
-    g2 c4 %85
-    c g r
+    g8 g16 g g8 g c c %85
+    g4 g r
     R2.*8 %94
-    c4\fE r r %95
+    c2\fE r4 %95
     r c c
-    g r r
+    g2 r4
     r g g
     c2 r4
     r c c %100
-    g2 c4
-    g2 c4
-    r c g
+    g g8 g16 g c4
+    g g8 g16 g c4
+    r g g
     c2 r4
     R2.*8 %112
-    r4 c\fE c
-    c c c
-    c c c %115
-    r g g
-    c c c
-    c c c
-    c c c
-    r g g %120
-    c c c
-    c2 r4\fermata \bar "||" %122 finis
+    r4 c8\fE c16 c c8 c
+    c c16 c c8 c c c
+    c c16 c c8 c c c %115
+    r4 g g
+    c8 c16 c c8 c c c
+    c c16 c c8 c c c
+    c c16 c c8 c c c
+    r4 g g %120
+    c8 c16 c c8 c c c
+    c2 r4\fermata \bar "||" %122
   }
 }
 
@@ -86,23 +86,23 @@ CumSanctoTimpani = {
     \clef bass
     \key c \major \time 3/4 \tempoCumSancto
       \set Score.currentBarNumber = #405
-    c4\fE c c %405
-    c c c
-    c c c
-    r g g
-    c c c
-    c c c %410
-    c c c
-    r g g
+    c8\fE c16 c c8 c c c
+    c c16 c c8 c c c
+    c c16 c c8 c c c
+    r4 g g
+    c8 c16 c c8 c c c
+    c c16 c c8 c c c %410
+    c c16 c c8 c c c
+    r4 g g
     c r r
     r c c
     g r r %415
     r g g
     c r r
     r c c
-    g2 c4
-    g2 c4 %420
-    g2 c4
+    g g8 g16 g c4
+    g g8 g16 g c4 %420
+    g g8 g16 g c4
     g g r
     R2.*47 %469
     c2\fE r4 %470
@@ -111,21 +111,21 @@ CumSanctoTimpani = {
     r g g
     c r r
     r c c %475
-    g2 c4
-    g2 c4
-    r8 c g4 g
+    g g8 g16 g c4
+    g g8 g16 g c4
+    r g g
     c r r
     R2.*8 %487
-    r4 c\fE c
-    c c c
-    c c c %490
-    r g g
-    c c c
-    c c c
-    c c c
-    r g g %495
-    c c g
-    c r r\fermata \bar "|." %497 finis
+    r4 c8\fE c16 c c8 c
+    c c16 c c8 c c c
+    c c16 c c8 c c c %490
+    r4 g g
+    c8 c16 c c8 c c c
+    c c16 c c8 c c c
+    c c16 c c8 c c c
+    r4 g g %495
+    c8 c16 c c8 c c c
+    c2 r4\fermata \bar "|." %497 finis
   }
 }
 

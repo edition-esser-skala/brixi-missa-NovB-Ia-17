@@ -438,7 +438,7 @@ GloriaOrgano = {
     a' cis d %110
     a cis d
     g, a a,
-    d2 d8\f d
+    d^\critnote d8\f d d d
     d d d d d d
     d d d d d d %115
     g4 a a,
