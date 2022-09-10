@@ -1284,3 +1284,214 @@ OsannaAltoLyrics = \lyricmode {
   sis, in __ ex -- %145
   cel -- sis. %146 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr a'4.\pE^\solo a8 fis16.([ g32)] a8 r a
+    fis16.([ g32)] a8 r a16([ d,)] h'8 a16([ h)] g4
+    fis4 r r8 fis4 gis8
+    a16([ e)] e8 r4 r8 fis4 gis8
+    a16([ e)] fis([ h)] \appoggiatura a8 gis4 a r %5
+    R1*10 \noBreak %15
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoDona \newSpacingSection
+      \mvTr fis2\fE^\tutti fis \noBreak
+    g fis
+    R1
+    r4 fis2(\pE e4) %20
+    fis r r2
+    r4 fis2( e4)
+    fis2 a4\fE h
+    gis2 a
+    a2. h4 %25
+    gis2 a
+    h2.( a4)
+    gis gis( a) h
+    cis2 h
+    a4 gis a h %30
+    cis2 h
+    a a4. h8
+    a4 h a( gis)
+    a2 r
+    d1\pE %35
+    cis
+    h
+    a
+    d,
+    cis %40
+    h
+    a2 a'4.\fE h8
+    a4 h a( gis)
+    a2 r
+    R1*7 %51
+    e2 e
+    gis a
+    R1
+    r4 cis2(^\critnote h4) %55
+    cis r r2
+    r4 cis2( h4)
+    cis a2( gis4)
+    a fis2( e4)
+    fis d2( cis4) %60
+    d2 h'4. h8
+    cis4 h ais h
+    ais2 ais
+    h2.^\critnote cis4
+    cis4( h8[ ais] h4) cis %65
+    h2( ais)
+    h r
+    fis1\pE
+    fis
+    g2 g %70
+    R1
+    e
+    e
+    fis2 fis
+    R1 %75
+    g4.\fE a8 g4 a^\critnote
+    a4. a8 a4 a
+    a1
+    a2 r
+    a1\pE %80
+    gis
+    g
+    f?
+    \once \tieDashed f~
+    f4 e e( cis)^\critnote %85
+    \once \tieDashed f1~
+    f4 e e2
+    fis4.\fE g8 a4 fis
+    d2 d
+    g4. a8 h4 g %90
+    e2 e
+    a4. h8 cis4 a
+    fis2 fis
+    \once \tieDashed h1~
+    h4 a \once \tieDashed g2~ %95
+    g4 fis \once \tieDashed h2~
+    h4 a g2
+    fis1
+    e
+    fis2 r %100
+    g1\p
+    fis
+    e
+    d2 r
+    \mvTr fis\f^\critnote a %105
+    g1
+    fis2 a(
+    g) fis4( e)
+    fis2\p a
+    g1 %110
+    fis2 a(
+    g) fis4( e)
+    fis\f fis g a
+    g\breve*1/2
+    fis\fermata \bar "|." %115 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se --
+  re -- re no -- bis. %5
+
+  Do -- na %17
+  no -- bis
+
+  pa -- %20
+  cem,
+  pa --
+  cem, do -- na
+  no -- bis
+  pa -- cem, %25
+  pa -- cem,
+  pa --
+  cem, do -- na
+  no -- bis
+  pa -- _ _ _ %30
+  _ _
+  cem, do -- na
+  no -- bis pa --
+  cem,
+  do -- %35
+  na
+  no --
+  bis,
+  do --
+  na %40
+  no --
+  bis, do -- na
+  no -- bis pa --
+  cem.
+
+  Do -- na %52
+  no -- bis
+
+  pa -- %55
+  cem,
+  do --
+  na no --
+  bis pa --
+  cem, pa -- %60
+  cem, do -- na
+  no -- bis pa -- cem,
+  do -- na
+  no -- bis
+  pa -- cem, %65
+  pa --
+  cem,
+  do --
+  na
+  no -- bis %70
+
+  pa --
+  cem,
+  pa -- cem,
+  %75
+  do -- na no -- bis,
+  do -- na no -- bis
+  pa --
+  cem,
+  do -- %80
+  na
+  no --
+  bis
+  pa --
+  _ cem, %85
+  pa --
+  _ cem,
+  do -- na no -- bis
+  pa -- cem,
+  do -- na no -- bis %90
+  pa -- cem,
+  do -- na no -- bis
+  pa -- cem,
+  pa --
+  _ _ %95
+  _ _
+  _ _
+  _
+  _
+  cem, %100
+  do --
+  na
+  no --
+  bis,
+  do -- na %105
+  no --
+  bis pa --
+  cem, __
+  no -- bis
+  pa -- %110
+  cem,
+  pa --
+  cem, __
+  do -- na no -- bis
+  pa --
+  cem. %115 finis
+}

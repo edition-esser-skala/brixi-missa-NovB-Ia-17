@@ -655,8 +655,76 @@
   %     \midi { \tempo 4 = 130 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Osanna"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2"  }
+  %           % \transpose c d
+  %           \partCombine \OsannaClarinoI \OsannaClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         % \transpose c d
+  %         \OsannaTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OsannaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OsannaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \OsannaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \OsannaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \OsannaAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \OsannaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \OsannaTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \OsannaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \OsannaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \OsannaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \OsannaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Osanna"
+    \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
@@ -664,62 +732,62 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2"  }
             % \transpose c d
-            \partCombine \OsannaClarinoI \OsannaClarinoII
+            \partCombine \AgnusClarinoI \AgnusClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
           % \transpose c d
-          \OsannaTimpani
+          \AgnusTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OsannaViolinoI
+              \AgnusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OsannaViolinoII
+              \AgnusViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \OsannaSoprano }
+            \new Voice = "Soprano" { \dynamicUp \AgnusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \OsannaAlto }
+            \new Voice = "Alto" { \dynamicUp \AgnusAlto }
           }
-          \new Lyrics \lyricsto Alto \OsannaAltoLyrics
+          \new Lyrics \lyricsto Alto \AgnusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \OsannaTenore }
+            \new Voice = "Tenore" { \dynamicUp \AgnusTenore }
           }
-          \new Lyrics \lyricsto Tenore \OsannaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \OsannaBasso }
+            \new Voice = "Basso" { \dynamicUp \AgnusBasso }
           }
-          \new Lyrics \lyricsto Basso \OsannaBassoLyrics
+          \new Lyrics \lyricsto Basso \AgnusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \OsannaOrgano
+            \AgnusOrgano
           }
         >>
-        \new FiguredBass { \OsannaBassFigures }
+        \new FiguredBass { \AgnusBassFigures }
       >>
-      \layout { }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
       \midi { \tempo 4 = 120 }
     }
   }

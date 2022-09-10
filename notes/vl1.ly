@@ -1103,3 +1103,127 @@ OsannaViolinoI = {
     a4 g fis2\fermata \bar "|." %146 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoAgnus
+    r8 a'\p a a r a a a
+    r a a a r2
+    r16 d-! d-! d-! d32[-! cis-! cis( d)] d-! cis-! cis( d) d4 r
+    r16 a'-! a-! a-! a32[-! gis-! gis( a)] a-! gis-! gis( a) fis4 r
+    r2 r16 a-!\f a-! a-! a32[-! gis-! gis( a)] a16( gis) %5
+    r fis-! fis-! fis-! fis32-! e-! e( fis) fis16([ e)] r d-! d-! d-! d32([ cis) cis-! h]-! h( a) a-! gis-!
+    gis16 a8 cis,16 h8 gis' a e'\p e e
+    r e e e r e e e
+    r2 r16 a-! a-! a-! a32([ gis) gis-! a]-! a( gis) gis-! a-!
+    a4 r r16 d,-! d-! d-! d32([ cis) cis-! d]-! d( cis) cis-! d-! %10
+    cis4 r r2
+    r16 d'-!\f d-! d-! d32( cis) cis-! d-! d16([ cis)] r h-! h-! h-! h32( a) a-! h-! h16([ a)]
+    r g-! g-! g-! g32([ fis) fis-! e]-! e( d) d-! cis-! cis16 d8 fis,16 e8 cis'
+    d a\p a a r a a a
+    r a a a h cis d4 \noBreak %15
+    cis16 a'-!\f a-! a-! a32([ gis) gis-! a]-! a( gis) gis-! a-! a2\fermata \bar "||"
+    \revert Score.SpacingSpanner.common-shortest-duration
+    \twotwotime \time 2/2 \tempoDona \newSpacingSection
+      a,2\f d \noBreak
+    cis d
+    r4 fis,\p g fis8 e
+    fis4 d'2 cis4 %20
+    d fis, g fis8 e
+    fis4 d'2 cis4
+    d2 a'4\f h
+    gis2 a
+    fis8 e fis gis a gis a h %25
+    gis2 a
+    d,2. cis4
+    h h cis d
+    e2 d
+    cis4 h cis d %30
+    e2 d
+    cis8 e fis gis a4. e8
+    cis4 d cis h
+    a a,8 a a4 r
+    r fis''\p d' fis, %35
+    r e cis' e,
+    r d h' d,
+    r cis8 d e4 e,
+    r fis d' fis,
+    r e cis' e, %40
+    r d h' d,
+    cis2 a''4.\f e8
+    cis4 d cis h
+    a8 a' gis a h a gis a
+    fis^\critnote a gis a h a gis a %45
+    e a gis a h a gis a
+    d,4 cis d cis8 h
+    cis4 e r8 e d cis
+    h4 h8 cis \appoggiatura e d4 cis8 h
+    cis4 e r8 e d cis %50
+    h4 h8 d cis e gis, h
+    a2 a'
+    gis a
+    r4 cis, d cis8 h
+    cis4 a2 gis4 %55
+    a cis d cis8 h
+    cis4 a'2 gis4
+    a fis2 eis4
+    fis d2 cis4
+    d h2 ais4 %60
+    h2 d4. d8
+    cis4 d e d
+    cis2 fis~
+    fis4 e8 d \once \tieDashed e2~
+    e4 d8 cis d4 e %65
+    d2 cis
+    h4 h,8 cis h4 r
+    r dis'\p dis dis
+    r dis dis dis
+    r e e8 fis e fis %70
+    g fis g fis e4 d!
+    r cis cis cis
+    r cis cis cis
+    r d d8 e d e
+    fis e fis e d4 cis %75
+    h4.\f a8 h4 cis
+    d4. cis8 d4 e
+    fis1
+    e8 a e cis a4 r
+    r a\p a a %80
+    r h h h
+    r cis cis cis
+    r d d d
+    r d d d
+    d( cis) cis( a)-\critnote %85
+    r d d d
+    d( cis) cis2
+    d\f d
+    h4. cis8 d4 h
+    e2 e %90
+    cis4. d8 e4 cis
+    fis2 fis
+    d4. e8 fis4 d
+    g2 \once \tieDashed g~
+    g4 fis e2~ %95
+    e4 d \once \tieDashed g2~
+    g4 fis \once \tieDashed e2~
+    e4 a, \once \tieDashed d2~
+    d4 cis8 h cis2
+    d r %100
+    r4 h\p g' h,
+    r a fis' a,
+    r g e' g,
+    fis8 a\f h cis d e fis g
+    fis4 a r8 a g fis %105
+    e4 e8 fis \appoggiatura a g4^\critnote fis8 e
+    fis4 a r8 a g fis
+    e4 e8 g fis a cis, e
+    fis4\p a r8 a g fis
+    e4 e8 fis \appoggiatura a g4 fis8 e %110
+    fis4 a r8 a g fis
+    e4 e8 g fis a cis, e
+    d4 fis\f g a
+    g\breve*1/2
+    fis\fermata \bar "|." %115 finis
+  }
+}

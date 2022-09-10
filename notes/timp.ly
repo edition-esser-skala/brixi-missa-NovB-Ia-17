@@ -291,3 +291,45 @@ OsannaTimpani = {
     c1\trill\fermata \bar "|." %146 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    R1*15 \noBreak %15
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoDona \newSpacingSection
+      c4\fE c8 c c2 \noBreak
+    r c
+    R1*4 %22
+    r2 c4\fE c
+    c c8 c g2
+    c4 c8 c c4 c8 c %25
+    c4 c8 c g2
+    R1*7 %33
+    g4 g8 g g4 r
+    R1*9 %43
+    g2\fE r
+    R1*7 %51
+    g4\fE g8 g g2
+    r g
+    R1*24 %77
+    c4\fE c8 c c4 c8 c
+    g2 r
+    R1*19 %98
+    r2 g4\fE g
+    c2 r %100
+    R1*4
+    c4\fE c8 c c2 %105
+    r g
+    c4 c8 c c2
+    r g4 g
+    c4\pE c8 c c2
+    r g %110
+    c4 c8 c c2
+    r g4 g
+    c2 c\fE
+    c\breve*1/2~\startTrillSpan
+    c\stopTrillSpan\fermata \bar "|." %115 finis
+  }
+}

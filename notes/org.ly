@@ -2302,3 +2302,231 @@ OsannaBassFigures = \figuremode {
   r2 <6>4 <6 5!> %145
   <9> <8>2. %146 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoAgnus
+    r8 \mvTr d\pE-\solo cis a r d cis a
+    r d cis d g fis e a,
+    d4 r r8 d h e
+    a,4 r r8 d h e
+    a, d e e, a4 r8 e'\fE %5
+    fis4 r8 cis d4 r8 d
+    e cis d e a, a'\pE gis e
+    r a gis e r a gis a
+    d, cis h e a,4 r
+    r8 a' a g! fis d r d, %10
+    a' a' a, g' fis g a a,
+    d4 r8 a'\fE h4 r8 fis
+    g4 r8 g a fis g a
+    d, d\p cis a r d cis a
+    r d cis a d cis h e \noBreak %15
+    a,4 r8 e'\fE \mvTrr a,2\fermata^\critnote \bar "||"
+    \revert Score.SpacingSpanner.common-shortest-duration
+    \twotwotime \time 2/2 \tempoDona \newSpacingSection
+      \mvTr d2\fE-\tutti fis \noBreak
+    e d
+    R1
+    r4 h'\pE a2 %20
+    d,4 r r2
+    r4 h' a2
+    d,2 d'4\fE d
+    d cis8 h cis4 a
+    d,2. d'4 %25
+    d cis8 h cis4 a
+    r gis a a,
+    e'2 r
+    r4 e fis gis
+    a r r2 %30
+    r4 e fis gis
+    a2 a4. gis8
+    a4 d, e e,
+    a a8 a a4 r
+    a'2\p r %35
+    a r
+    e r
+    a, r
+    a r
+    a r %40
+    e r
+    a a'4.\f gis8
+    a4 d, e e,
+    a2 r4 cis-\soloE
+    d2 r4 d %45
+    cis2 r4 cis
+    gis' a h e,
+    a2 cis,
+    d e4 e,
+    a2 cis %50
+    d e4 e,
+    a2-\tutti cis
+    h a
+    R1
+    r4 fis'4 e2 %55
+    a,4 r r2
+    \clef "treble_8" r4 fis'' e2
+    a,4 \clef bass d cis2
+    fis,4 \clef "treble_8" h a2
+    d,4 \clef bass g fis2 %60
+    h, h'4. h8
+    ais4 h cis h
+    fis2 fis
+    gis2. ais4
+    h2. e,4 %65
+    fis2 fis
+    h, r
+    R1*8 %75
+    g'4.\fE fis8 g4 g
+    fis4. e8 fis4 cis
+    d8 cis d e fis e fis g
+    a2 r
+    \mvTr a,\p-\markup \remark "Ped." r %80
+    a r
+    a r
+    a r
+    gis r
+    a r %85
+    gis r
+    a r
+    \mvTr d4.\f-\tutti e8 fis!4 d
+    g2 g
+    e4. fis8 g4 e %90
+    a2 a
+    fis4. g8 a4 fis
+    h2 h
+    g4. a8 h4 g
+    d'2. cis4 %95
+    d2. cis4
+    d2. cis4
+    d2 h
+    g a
+    d, r %100
+    d\p r
+    d r
+    a r
+    d r
+    d\f fis %105
+    g a
+    d fis,
+    g a
+    d,\p fis
+    g a %110
+    d fis,
+    g a
+    d,4 d\f e fis
+    g\breve*1/2
+    d\fermata \bar "|." %115 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r4 <6>2 q4
+  r \bo <[6]>4. \bc q8 <7> q
+  r2.. <_+>8
+  r2.. <_+>8
+  r <[6]> <4> <_+> r4. \bo <[6 4]>16 <5 _+> %5
+  r4. <6 4>16 <5+ 3> r4. <6>8
+  <_+> <6> q <_+>4. <6>8 <_+>
+  r4 <6>8 <_+>4. <6>4
+  r8 \bc <[6 \l]> <7> <7 [_+]> r2
+  r4. <2>8 <6>2 %10
+  r4. <[2]>8 <6> q <4> <3>
+  r4. \bo <[6 4]>16 <5 3> r4. <6 4>16 <5 3>
+  r4. <6>4 q8 q4
+  r4 q2 \bc <[6 \l]>4
+  r <6> q8 q <7> <7 [_+]> %15
+  r4. <_+>8 r2
+  r1
+  <6>
+  r
+  r2 <6 4>4 <5 3> %20
+  r1
+  r2 <6 4>4 <5 3>
+  r2 <5>4 <6>
+  <4+ 2>2 <6>
+  <5>2. <6>4 %25
+  <4+ 2>2 <6>
+  r4 <[6 5]> <9 4> <8 3>
+  <_+>1
+  r4 <8 6> <6 4> <\t \t>
+  r1 %30
+  r4 <8 6> <6 4> <\t \t>
+  r2.. <[6]>8
+  r4 <6> \bo <[6] 4> \bc <[5] _+>
+  r1
+  <6 4> %35
+  \bo <[5 3]>
+  <7 _+>
+  r
+  <6 4>
+  <5 3> %40
+  \bc <[7 _+]>
+  r2.. \bo <[6]>8
+  r4 <6> <6 4>4 \bc <[5] _+>
+  r2. \bo <[6 \l]>4
+  r1 %45
+  <6>2. <\t>4
+  <6 5>2 <6\\>4 <6 4>8 <5 3>
+  r2 \bc <[6 \l]>
+  <6> <7 _+>
+  r <[6]> %50
+  <6>2 \bo <[6] 4>4 \bc <[5] _+>
+  r2 <6>
+  <6\\>1
+  r
+  r4 <5> <6 4> <5 _+> %55
+  r1
+  r4 <5> \bo <[6] 4> \bc <[5] _+>
+  r \bo <[5 \l]> <6 4> \bc <[5+ _+]>
+  r <5> <6 4> <[5] 3>
+  r <[5]> <6 4> <[5] _+> %60
+  r1
+  <[6]>2 <6\\>
+  <_+>1
+  <7>2 <6>4 <\t>
+  <9 4>2 <8 3>4 <6 [_!]> %65
+  <6 4>2 <[5] _+>
+  r1
+  r1*8 %75
+  r4. <[6]>8 <3>4 <4>
+  <6>4. q8 q4 <[6]>
+  r1
+  r
+  \bo <[8 3]> %80
+  <7+ 2>
+  <7! 3>
+  <6! 4>
+  <7!>
+  <6! 4>2 <5 3> %85
+  <7!>1
+  <6! 4>2 \bc <[5 3]>
+  <_+> <6>
+  r1
+  <_!> %90
+  r
+  <_!>
+  r
+  r
+  <6 4>4 <5 3> <4 2> <[6 5]> %95
+  <9 4> <8 3> <4 2> <[7]>
+  <6 4> <5 3> <4 2> <[6 5]>
+  <9>2 \bo <[5 \l]>
+  \bc <[6 5]>1
+  r %100
+  \bo <[6 4]>
+  <5 3>
+  <7>
+  r
+  r2 <6> %105
+  <6> \bc <[7 \l]>
+  r <6>
+  \bo <[6 \l]> <6 4>4 \bc <[5 3]>
+  r1
+  \bo <[6]>2 \bc <[7]> %110
+  r <6>
+  \bo <[6 \l]> <6 4>4 \bc <[5 3]>
+  r1
+  r
+  r %115 finis
+}

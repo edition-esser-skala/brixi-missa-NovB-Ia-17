@@ -306,3 +306,53 @@ OsannaClarinoI = {
     c2 c\fermata \bar "|." %146 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*15 \noBreak %15
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoDona \newSpacingSection
+      g'2\fE c
+    r c
+    R1*4 %22
+    r2 g'4\fE a
+    fis2 g
+    g2. a4 %25
+    fis2 g
+    r d
+    \pao d r
+    R1*4 %32
+    r2 \pao d
+    d r
+    R1*8 %42
+    r2 \pao d\fE
+    d r
+    R1*7 %51
+    g2 g
+    fis g
+    R1*12 %65
+    \pa e,4 e8 e e4 e
+    e2 \pd r
+    R1*10 %77
+    e'1\fE
+    d2 r
+    R1*18 %97
+    r2 e\fE
+    d d
+    c r %100
+    R1*4
+    e1\fE %105
+    r2 d^\critnote
+    e1
+    r4 f e d
+    e1\pE
+    r2 d %110
+    e1
+    r4 f e d
+    c2 c\fE
+    c\breve*1/2^\critnote
+    c\fermata \bar "|." %115 finis
+  }
+}
